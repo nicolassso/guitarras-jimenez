@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './components/pages/Home.js';
-import Products from './components/pages/Products';
-import Navbar from './components/navbar/Navbar';
+import Home from './components/pages/Home.jsx';
+import Products from './components/pages/Products.jsx';
+import Navbar from './components/navbar/Navbar.jsx';
 
 
 
@@ -11,13 +11,13 @@ import Navbar from './components/navbar/Navbar';
 function App() {
   return (
     <>
-    <Router>
+    <Router basename='/guitarras-jimenez'>
         
         <Navbar />
 
         <Switch>
-          <Route exact path='/guitarras-jimenez/' component={Home} />
-          <Route exact path='/guitarras-jimenez/products' component={Products} />
+          <Route exact path='/' component={Home} />
+          <Route exact path='/products' component={Products} />
         </Switch>
     </Router>
     </>

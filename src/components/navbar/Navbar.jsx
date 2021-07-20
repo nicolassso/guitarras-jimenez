@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Router } from 'react-router-dom';
 import './Navbar.scss';
 import Logo from '../../images/logo-guitar.PNG'
 
@@ -40,7 +40,7 @@ function Navbar() {
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item active'>
                 <Link 
-                  to='/guitarras-jimenez/products' 
+                  to='/products' 
                   className='nav-links' 
                   onClick={closeMobileMenu}>
                   Guitars & Bass
@@ -48,7 +48,7 @@ function Navbar() {
               </li>
               <li className='nav-item active'>
                 <Link
-                  to='/guitarras-jimenez/'
+                  to='/'
                   href={scrollView}
                   className='nav-links'
                   onClick={closeMobileMenu}>
@@ -57,7 +57,7 @@ function Navbar() {
               </li>
               <li className='nav-item active'>
                 <Link
-                  to='/guitarras-jimenez/'
+                  to='/'
                   href={scrollView}
                   className='nav-links'
                   onClick={closeMobileMenu}>
@@ -65,15 +65,16 @@ function Navbar() {
                 </Link>
               </li>
               </ul>
+
           </div>
           <div className="section-center">
-            <img className='navbar-logo active' src={Logo} height='200px' />
+            <img className='navbar-logo active' alt='logo' src={Logo} height='200px' />
           </div>
           <div className="section-right">
             <ul className={click ? 'nav-menu active-2' : 'nav-menu'}>
               <li className='nav-item active'>
                 <Link
-                  to='/guitarras-jimenez/'
+                  to='/'
                   href={scrollView}
                   className='nav-links'
                   onClick={closeMobileMenu}>
@@ -82,7 +83,7 @@ function Navbar() {
               </li>
               <li className='nav-item active'>
                 <Link
-                  to='/guitarras-jimenez/'
+                  to='/'
                   href={scrollView}
                   className='nav-links'
                   onClick={closeMobileMenu}>
