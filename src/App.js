@@ -16,8 +16,8 @@ function App() {
         <Navbar />
 
         <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/products' component={Products} />
+          <Route exact path='/guitarras-jimenez/' component={Home} />
+          <Route exact path='/guitarras-jimenez/products' component={Products} />
         </Switch>
     </Router>
     </>

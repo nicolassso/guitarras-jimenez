@@ -40,7 +40,7 @@ function Navbar() {
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item active'>
                 <Link 
-                  to='/products' 
+                  to='/guitarras-jimenez/products' 
                   className='nav-links' 
                   onClick={closeMobileMenu}>
                   Guitars & Bass
@@ -48,7 +48,7 @@ function Navbar() {
               </li>
               <li className='nav-item active'>
                 <Link
-                  to='/'
+                  to='/guitarras-jimenez/'
                   href={scrollView}
                   className='nav-links'
                   onClick={closeMobileMenu}>
@@ -57,7 +57,7 @@ function Navbar() {
               </li>
               <li className='nav-item active'>
                 <Link
-                  to='/'
+                  to='/guitarras-jimenez/'
                   href={scrollView}
                   className='nav-links'
                   onClick={closeMobileMenu}>
@@ -73,7 +73,7 @@ function Navbar() {
             <ul className={click ? 'nav-menu active-2' : 'nav-menu'}>
               <li className='nav-item active'>
                 <Link
-                  to='/'
+                  to='/guitarras-jimenez/'
                   href={scrollView}
                   className='nav-links'
                   onClick={closeMobileMenu}>
@@ -82,7 +82,7 @@ function Navbar() {
               </li>
               <li className='nav-item active'>
                 <Link
-                  to='/'
+                  to='/guitarras-jimenez/'
                   href={scrollView}
                   className='nav-links'
                   onClick={closeMobileMenu}>
