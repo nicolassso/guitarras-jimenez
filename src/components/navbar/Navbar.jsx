@@ -40,7 +40,7 @@ function Navbar() {
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item active'>
                 <Link 
-                  to='/' 
+                  to='/products' 
                   className='nav-links' 
                   onClick={closeMobileMenu}>
                   Guitars & Bass
@@ -48,6 +48,7 @@ function Navbar() {
               </li>
               <li className='nav-item active'>
                 <Link
+                  to='/'
                   href={scrollView}
                   className='nav-links'
                   onClick={closeMobileMenu}>
@@ -56,6 +57,7 @@ function Navbar() {
               </li>
               <li className='nav-item active'>
                 <Link
+                  to='/'
                   href={scrollView}
                   className='nav-links'
                   onClick={closeMobileMenu}>
@@ -71,6 +73,7 @@ function Navbar() {
             <ul className={click ? 'nav-menu active-2' : 'nav-menu'}>
               <li className='nav-item active'>
                 <Link
+                  to='/'
                   href={scrollView}
                   className='nav-links'
                   onClick={closeMobileMenu}>
@@ -79,6 +82,7 @@ function Navbar() {
               </li>
               <li className='nav-item active'>
                 <Link
+                  to='/'
                   href={scrollView}
                   className='nav-links'
                   onClick={closeMobileMenu}>
