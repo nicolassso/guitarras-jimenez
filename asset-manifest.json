@@ -1,28 +1,31 @@
 {
   "files": {
-    "main.css": "/guitarras-jimenez/static/css/main.58c7c45e.chunk.css",
-    "main.js": "/guitarras-jimenez/static/js/main.4d9a06f0.chunk.js",
-    "main.js.map": "/guitarras-jimenez/static/js/main.4d9a06f0.chunk.js.map",
+    "main.css": "/guitarras-jimenez/static/css/main.972cdeef.chunk.css",
+    "main.js": "/guitarras-jimenez/static/js/main.0ccf8b9e.chunk.js",
+    "main.js.map": "/guitarras-jimenez/static/js/main.0ccf8b9e.chunk.js.map",
     "runtime-main.js": "/guitarras-jimenez/static/js/runtime-main.03544ff6.js",
     "runtime-main.js.map": "/guitarras-jimenez/static/js/runtime-main.03544ff6.js.map",
-    "static/js/2.45ae749d.chunk.js": "/guitarras-jimenez/static/js/2.45ae749d.chunk.js",
-    "static/js/2.45ae749d.chunk.js.map": "/guitarras-jimenez/static/js/2.45ae749d.chunk.js.map",
+    "static/js/2.2af797d2.chunk.js": "/guitarras-jimenez/static/js/2.2af797d2.chunk.js",
+    "static/js/2.2af797d2.chunk.js.map": "/guitarras-jimenez/static/js/2.2af797d2.chunk.js.map",
     "index.html": "/guitarras-jimenez/index.html",
-    "static/css/main.58c7c45e.chunk.css.map": "/guitarras-jimenez/static/css/main.58c7c45e.chunk.css.map",
-    "static/js/2.45ae749d.chunk.js.LICENSE.txt": "/guitarras-jimenez/static/js/2.45ae749d.chunk.js.LICENSE.txt",
+    "static/css/main.972cdeef.chunk.css.map": "/guitarras-jimenez/static/css/main.972cdeef.chunk.css.map",
+    "static/js/2.2af797d2.chunk.js.LICENSE.txt": "/guitarras-jimenez/static/js/2.2af797d2.chunk.js.LICENSE.txt",
     "static/media/1.0f95be4b.jpg": "/guitarras-jimenez/static/media/1.0f95be4b.jpg",
     "static/media/1.907ad9b7.jpg": "/guitarras-jimenez/static/media/1.907ad9b7.jpg",
     "static/media/2.da129d1a.jpg": "/guitarras-jimenez/static/media/2.da129d1a.jpg",
     "static/media/3.501ba640.jpg": "/guitarras-jimenez/static/media/3.501ba640.jpg",
-    "static/media/App.css": "/guitarras-jimenez/static/media/_MG_9585.d8ea064a.jpg",
+    "static/media/IMG_8520.b0af75e6.jpg": "/guitarras-jimenez/static/media/IMG_8520.b0af75e6.jpg",
+    "static/media/IMG_8521.984e988f.jpg": "/guitarras-jimenez/static/media/IMG_8521.984e988f.jpg",
+    "static/media/IMG_8537.1d838cb2.jpg": "/guitarras-jimenez/static/media/IMG_8537.1d838cb2.jpg",
+    "static/media/IMG_8539.cf634da6.jpg": "/guitarras-jimenez/static/media/IMG_8539.cf634da6.jpg",
     "static/media/IMG_8543.4395fd95.jpg": "/guitarras-jimenez/static/media/IMG_8543.4395fd95.jpg",
     "static/media/logo-guitar.f1ce8a64.PNG": "/guitarras-jimenez/static/media/logo-guitar.f1ce8a64.PNG",
     "static/media/HeroSection.scss": "/guitarras-jimenez/static/media/marcos.f3597366.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.03544ff6.js",
-    "static/js/2.45ae749d.chunk.js",
-    "static/css/main.58c7c45e.chunk.css",
-    "static/js/main.4d9a06f0.chunk.js"
+    "static/js/2.2af797d2.chunk.js",
+    "static/css/main.972cdeef.chunk.css",
+    "static/js/main.0ccf8b9e.chunk.js"
   ]
 }
