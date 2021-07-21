@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './components/pages/Home.jsx';
-import Products from './components/pages/Products.jsx';
+import Home from './components/pages/home/Home.jsx';
+import Products from './components/pages/products/Products.jsx';
 import Navbar from './components/navbar/Navbar.jsx';
 
 
