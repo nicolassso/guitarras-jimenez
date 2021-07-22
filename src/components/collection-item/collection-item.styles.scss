@@ -109,8 +109,48 @@
     .images-grid{
       display: grid;
 
-      grid-template-columns: repeat(6, 15vw);
-      grid-template-rows: repeat(4, 15vw);
+      grid-template-columns: repeat(5, 14vw);
+      grid-template-rows: repeat(5, 14vw);
+    }
+    
+    .image {
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 5;
+      background-size: cover;
+      background-position: center;
+
+    }
+    .image2{
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 5;
+      grid-row-end: 6;
+      
+      background-size: cover;
+      background-position: center;
+
+    }
+    .image3{
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 5;
+      grid-row-end: 6;
+      
+      background-size: cover;
+      background-position: center;
+
+    }
+    .image4{
+      grid-column-start: 4;
+      grid-column-end: 6;
+      grid-row-start: 5;
+      grid-row-end: 6;
+      
+      background-size: cover;
+      background-position: center;
+
     }
   }
   }
