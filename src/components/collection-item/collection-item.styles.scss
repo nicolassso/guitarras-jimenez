@@ -102,3 +102,15 @@
       
     }
   }
+
+  @media screen and (max-width: 500px){
+
+    .collection-item{
+    .images-grid{
+      display: grid;
+
+      grid-template-columns: repeat(6, 15vw);
+      grid-template-rows: repeat(4, 15vw);
+    }
+  }
+  }
