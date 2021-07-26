@@ -1,13 +1,13 @@
 import React from 'react';
 import '../../App.css';
-import Carousel from '../carousel/carousel.component';
 import './HeroSection.scss';
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <div className='carousel'>
-        <Carousel />
+      <div className='herosection-content'>
+        <h2>BIG JAZZ Archtop</h2>
+        <h1>Building <br /> the Music</h1>
       </div>
     </div>
   );

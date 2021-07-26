@@ -3,7 +3,7 @@
 
 .navbar {
     background:#231f20;
-    height: 200px;
+    height: 150px;
     font-size: 1.8rem;
     position: sticky;
     top: 0;
@@ -17,21 +17,24 @@
 
     .section-left{
       grid-column: 1 / 2 ;
+      display: grid;
+
+      .nav-menu{
+        justify-content: right;
+      }
     }
 
     .section-center{
+      display: grid;
       grid-column: 2 / 3 ;
+      align-items: center;
+      justify-content: center;
     }
 
     .section-right{
       grid-column: 3 / 4 ;
     }
   }
-
-  .navbar-logo{
-    margin-left: 10%;
-  }
-  
   .nav-menu{
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -42,7 +45,7 @@
   }
   
   .nav-item {
-    height: 200px;
+    height: 150px;
   }
   
   .nav-links {
@@ -73,6 +76,29 @@
   
   @media screen and (max-width: 960px) {
 
+    .navbar-container {
+      display: grid;
+      grid-template-columns: [left]0vw [center]100vw [right]0vw;
+      height: 100%;
+  
+      .section-left{
+        grid-column: none ;
+      }
+  
+      .section-center{
+        display: grid;
+        grid-column: 2 / 3 ;
+        height: 100%;
+        align-self: center;
+        margin-bottom: 22px;
+
+      }
+  
+      .section-right{
+        grid-column: none ;
+  
+      }
+    }
     .navbar.active{
       height: 100px;
     }

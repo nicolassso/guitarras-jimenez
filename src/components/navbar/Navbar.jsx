@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, Router } from 'react-router-dom';
 import './Navbar.scss';
-import Logo from '../../images/logo-guitar.PNG'
+import Logo from '../../images/logo-navbar.PNG'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -68,7 +68,7 @@ function Navbar() {
 
           </div>
           <div className="section-center">
-            <img className='navbar-logo active' alt='logo' src={Logo} height='200px' />
+            <img className='navbar-logo active' alt='logo' src={Logo} height='140px' />
           </div>
           <div className="section-right">
             <ul className={click ? 'nav-menu active-2' : 'nav-menu'}>
