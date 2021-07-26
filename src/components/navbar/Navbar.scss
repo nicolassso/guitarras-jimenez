@@ -3,7 +3,7 @@
 
 .navbar {
     background:#231f20;
-    height: 150px;
+    height: 160px;
     font-size: 1.8rem;
     position: sticky;
     top: 0;
@@ -21,7 +21,37 @@
 
       .nav-menu{
         justify-content: right;
+
+        .nav-item.active{
+          .dropdown-menu{
+            display: none;
+            position: absolute;
+            background-color: #231f20;
+            min-width: 136px;
+            z-index: 1;
+
+            .nav-item.active.dropdown-item{
+              color: white;
+              height: 60px;
+              padding: 15px;
+              transition: ease-out 0.3s;
+            }
+            .nav-item.active.dropdown-item:hover{
+              color: black;
+              height: 60px;
+              padding: 20px;
+              background-color: white;
+              transition: ease-out 0.3s;
+              cursor: pointer;
+            }
+          }
+        }
+        .nav-item.active:hover .dropdown-menu{
+          display: block;
+        }
       }
+
+
     }
 
     .section-center{
@@ -45,7 +75,7 @@
   }
   
   .nav-item {
-    height: 150px;
+    height: 160px;
   }
   
   .nav-links {
@@ -55,11 +85,13 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+    transition: all 0.3s ease-out;
+
   }
   
   .nav-links:hover {
     border-bottom: 4px solid var(--primary-color);
-    transition: all 0.2s ease-out;
+    transition: 0.3s ease-out;
   }
   
   .fa-bars {
@@ -76,6 +108,8 @@
   
   @media screen and (max-width: 960px) {
 
+
+
     .navbar-container {
       display: grid;
       grid-template-columns: [left]0vw [center]100vw [right]0vw;
@@ -83,6 +117,21 @@
   
       .section-left{
         grid-column: none ;
+        
+      grid-column: 1 / 2 ;
+      display: grid;
+
+      .nav-menu{
+
+        .nav-item.active{
+          .dropdown-menu{
+            display: none;
+          }
+        }
+        .nav-item.active:hover .dropdown-menu{
+          display: none;
+        }
+      }
       }
   
       .section-center{
@@ -90,7 +139,7 @@
         grid-column: 2 / 3 ;
         height: 100%;
         align-self: center;
-        margin-bottom: 22px;
+        margin-bottom: 5px;
 
       }
   
@@ -100,7 +149,7 @@
       }
     }
     .navbar.active{
-      height: 100px;
+      height: 110px;
     }
 
     .NavbarItems {
@@ -125,6 +174,7 @@
       opacity: 0.5;
       transition: all 0.5s ease;
       margin-left: 0;
+      padding-top: 20px;
     }
   
     .nav-menu.active {
@@ -140,7 +190,7 @@
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 1;
-      top: 62vh;
+      top: 480px;
     }
 
     .nav-item.active{

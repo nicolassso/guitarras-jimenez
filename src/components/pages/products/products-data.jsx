@@ -26,7 +26,7 @@ const PRODUCTS_DATA = [
             {
                 id: 1,
                 name: 'BIG JAZZ Archtop',
-                imageUrl: jazzImage1,
+                imageUrl: jazzImage3,
                 img2: jazzImage2,
                 img3: jazzImage5,
                 img4: jazzImage4
@@ -34,7 +34,7 @@ const PRODUCTS_DATA = [
             {
                 id: 2,
                 name: 'BIG LITTLE JAZ Archtop',
-                imageUrl: jazzImage3,
+                imageUrl: jazzImage1,
                 img2: jazzImage2,
                 img3: jazzImage6,
                 img4: jazzImage4
@@ -66,7 +66,7 @@ const PRODUCTS_DATA = [
             {
                 id: 2,
                 name: 'Bass2',
-                imageUrl: bossaClassic5,
+                imageUrl: bossaClassic8,
                 img2: bossaClassic4,
                 img3: bossaClassic3,
                 img4: bossaClassic1
@@ -74,7 +74,7 @@ const PRODUCTS_DATA = [
             {
                 id: 3,
                 name: 'Bass3',
-                imageUrl: bossaClassic8,
+                imageUrl: bossaClassic5,
                 img2: bossaClassic1,
                 img3: bossaClassic2,
                 img4: bossaClassic4

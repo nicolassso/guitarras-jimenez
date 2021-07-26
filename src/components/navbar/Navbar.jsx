@@ -43,8 +43,28 @@ function Navbar() {
                   to='/products' 
                   className='nav-links' 
                   onClick={closeMobileMenu}>
-                  Guitars & Bass
+                  Guitars & Bass                  
                 </Link>
+                <ul className="dropdown-menu">
+                    <li className="nav-item active dropdown-item">
+                      <Link 
+                        to='/jazz'>
+                        Jazz                  
+                      </Link>
+                    </li>
+                    <li className="nav-item active dropdown-item">
+                      <Link 
+                        to='/bass'>
+                        Basses                  
+                      </Link>
+                    </li>
+                    <li className="nav-item active dropdown-item">
+                      <Link 
+                        to='/nylonstrings'>
+                        Nylon Strings                  
+                      </Link>
+                    </li>
+                  </ul>
               </li>
               <li className='nav-item active'>
                 <Link

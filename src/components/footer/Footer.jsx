@@ -6,17 +6,24 @@ import './Footer.scss'
 function Footer() {
     return (
         <div className="footer-container">
-            <div className="footer-links">
+            {/* <div className="footer-links">
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>Diseño</h2>
                         <Link to="/">Nicolás Leal</Link>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <section className="social-media">
                 <div className="social-media-wrap">
-                    <small className="website-rights">Nicolás Leal © 2021</small>
+                    <small className="website-rights">
+                        <a 
+                        href='www.linkedin.com/in/nicolas-leal-silveyra'
+                        target='_blank'
+                        >
+                        Nicolás Leal © 2021
+                        </a>
+                    </small>
                     <div className="social-icons">
                         <Link className="social-icon-link facebook"
                         to="/"
