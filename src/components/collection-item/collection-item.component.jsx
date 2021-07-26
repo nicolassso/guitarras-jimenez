@@ -3,7 +3,6 @@ import './collection-item.styles.scss'
 
 const CollectionItem = ({id, name, imageUrl, img2, img3, img4}) => (
 
-        //AÑADIR IMG2, 3 Y 4 
 
     <div className='collection-item'>
 
