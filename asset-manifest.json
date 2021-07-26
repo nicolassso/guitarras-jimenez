@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/guitarras-jimenez/static/css/main.ae118027.chunk.css",
-    "main.js": "/guitarras-jimenez/static/js/main.fb2962f7.chunk.js",
-    "main.js.map": "/guitarras-jimenez/static/js/main.fb2962f7.chunk.js.map",
+    "main.css": "/guitarras-jimenez/static/css/main.6b10145c.chunk.css",
+    "main.js": "/guitarras-jimenez/static/js/main.3442cc97.chunk.js",
+    "main.js.map": "/guitarras-jimenez/static/js/main.3442cc97.chunk.js.map",
     "runtime-main.js": "/guitarras-jimenez/static/js/runtime-main.03544ff6.js",
     "runtime-main.js.map": "/guitarras-jimenez/static/js/runtime-main.03544ff6.js.map",
-    "static/js/2.b82a0a4a.chunk.js": "/guitarras-jimenez/static/js/2.b82a0a4a.chunk.js",
-    "static/js/2.b82a0a4a.chunk.js.map": "/guitarras-jimenez/static/js/2.b82a0a4a.chunk.js.map",
+    "static/js/2.9d4ac695.chunk.js": "/guitarras-jimenez/static/js/2.9d4ac695.chunk.js",
+    "static/js/2.9d4ac695.chunk.js.map": "/guitarras-jimenez/static/js/2.9d4ac695.chunk.js.map",
     "index.html": "/guitarras-jimenez/index.html",
-    "static/css/main.ae118027.chunk.css.map": "/guitarras-jimenez/static/css/main.ae118027.chunk.css.map",
-    "static/js/2.b82a0a4a.chunk.js.LICENSE.txt": "/guitarras-jimenez/static/js/2.b82a0a4a.chunk.js.LICENSE.txt",
+    "static/css/main.6b10145c.chunk.css.map": "/guitarras-jimenez/static/css/main.6b10145c.chunk.css.map",
+    "static/js/2.9d4ac695.chunk.js.LICENSE.txt": "/guitarras-jimenez/static/js/2.9d4ac695.chunk.js.LICENSE.txt",
     "static/media/1.0f95be4b.jpg": "/guitarras-jimenez/static/media/1.0f95be4b.jpg",
     "static/media/2.da129d1a.jpg": "/guitarras-jimenez/static/media/2.da129d1a.jpg",
     "static/media/3.501ba640.jpg": "/guitarras-jimenez/static/media/3.501ba640.jpg",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.03544ff6.js",
-    "static/js/2.b82a0a4a.chunk.js",
-    "static/css/main.ae118027.chunk.css",
-    "static/js/main.fb2962f7.chunk.js"
+    "static/js/2.9d4ac695.chunk.js",
+    "static/css/main.6b10145c.chunk.css",
+    "static/js/main.3442cc97.chunk.js"
   ]
 }
