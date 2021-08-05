@@ -75,15 +75,6 @@ function Navbar() {
                   Amps & Cabinets
                 </Link>
               </li>
-              <li className='nav-item active'>
-                <Link
-                  to='/'
-                  href={scrollView}
-                  className='nav-links'
-                  onClick={closeMobileMenu}>
-                  In Process
-                </Link>
-              </li>
               </ul>
 
           </div>
@@ -94,16 +85,7 @@ function Navbar() {
             <ul className={click ? 'nav-menu active-2' : 'nav-menu'}>
               <li className='nav-item active'>
                 <Link
-                  to='/'
-                  href={scrollView}
-                  className='nav-links'
-                  onClick={closeMobileMenu}>
-                  Videos
-                </Link>
-              </li>
-              <li className='nav-item active'>
-                <Link
-                  to='/'
+                  to='/contact'
                   href={scrollView}
                   className='nav-links'
                   onClick={closeMobileMenu}>

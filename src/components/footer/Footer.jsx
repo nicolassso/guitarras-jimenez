@@ -18,7 +18,7 @@ function Footer() {
                 <div className="social-media-wrap">
                     <small className="website-rights">
                         <a 
-                        href='www.linkedin.com/in/nicolas-leal-silveyra'
+                        exact href='www.linkedin.com/in/nicolas-leal-silveyra'
                         target='_blank'
                         >
                         Nicolás Leal © 2021
