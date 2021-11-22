@@ -1,9 +1,8 @@
 import React from 'react'
-import PRODUCTS_DATA from './products-data';
+import PRODUCTS_DATA from '../products-data';
 import CollectionPreview from '../../../components/collection-preview/collection-preview.component';
-import './products.styles.scss'
 
-class Products extends React.Component {
+class Nylonstrings extends React.Component {
     constructor(props){ 
         super(props);
 
@@ -18,7 +17,9 @@ class Products extends React.Component {
         return(
         <div className='shop-page'>
             {
-                collections.map(({id, ...otherCollectionProps}) => (
+                collections                
+                .filter((item, idx) => idx === 2)
+                .map(({id, ...otherCollectionProps}) => (
                     <CollectionPreview key={id} {...otherCollectionProps}/>
                     
                 ))
@@ -28,4 +29,4 @@ class Products extends React.Component {
     }
 }
 
-export default Products;
+export default Nylonstrings;

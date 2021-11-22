@@ -1,48 +1,16 @@
-html {
-  box-sizing: border-box;
-  font-size: 10px;
-  @media (max-width: 425px) {
-    font-size: 8px;
-  }
-}
-
-body {
-  font-size: 1.5rem;
-  margin: 0;
-}
-
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  box-sizing: inherit;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-
-
 .hero-container {
-  box-sizing: border-box;
-  background-image: url('../../images/IMG_8578.jpg');
-  background-size:cover;
-  height: 100vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('../../assets/images/big-jazz/IMG_8578.jpg');
+  background-size:cover;
+  background-position: 0% -35%;
+  height: 120vh;
+  width: 100vw;
+  
   .herosection-content{
-    color: white;
+    color: var(--white);
     margin-right: 15%;
     h2{
       letter-spacing: 7px;
@@ -61,13 +29,10 @@ a {
 
 }
   
-@media screen and (max-width: 960px) {
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
   .hero-container {
     box-sizing: border-box;
-    background-image: url('../../images/IMG_8578.jpg');
+    background-image: url('../../assets/images/big-jazz/IMG_8578.jpg');
     background-size:cover;
     background-position: center;
     height: 100vh;
@@ -78,7 +43,7 @@ a {
     align-items: flex-end;
   
     .herosection-content{
-      color: white;
+      color: var(--white);
       margin: 75% 40% auto 10%;
       h2{
         letter-spacing: 5px;
@@ -92,7 +57,5 @@ a {
         line-height: 40px;
       }
     }
-  
-  
   }
 }

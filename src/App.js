@@ -1,13 +1,18 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './components/pages/home/Home.jsx';
-import Products from './components/pages/products/Products.jsx';
-import Contact from './components/pages/contact/contact.component.jsx'
-import Navbar from './components/navbar/Navbar.jsx';
-import Jazz from './components/pages/products/jazz/jazz';
-import Bass from './components/pages/products/bass/bass';
-import Nylonstrings from './components/pages/products/nylonstrings/nylonstrings';
+
+import { ScrollService } from './services/scrollService.component';
+
+import Home from './pages/home/home.component.jsx';
+import Products from './pages/products/products.component.jsx';
+import Contact from './pages/contact/contact.component.jsx'
+import Jazz from './pages/products/jazz/jazz';
+import Bass from './pages/products/bass/bass';
+import Nylonstrings from './pages/products/nylonstrings/nylonstrings';
+
+import Header from './components/header/header.component.jsx';
+import Footer from './components/footer/footer.component.jsx'
 
 
 
@@ -18,8 +23,8 @@ function App() {
     <>
     <Router basename='/guitarras-jimenez'>
         
-        <Navbar />
-
+        <Header />
+        <ScrollService>
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/products' component={Products} />
@@ -29,6 +34,8 @@ function App() {
           <Route exact path='/contact' component={Contact} />
 
         </Switch>
+        </ScrollService>
+        <Footer />
     </Router>
     </>
   );

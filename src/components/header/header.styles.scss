@@ -1,0 +1,217 @@
+.header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba($color: #000000, $alpha: 0.8);
+  position: fixed;
+  z-index: 998;
+  .logo-container {
+    height: 100%;
+    width: 95.1px;
+    order: 2;
+
+    .jimenez-logo{
+      height: 100px;
+      filter: invert(65%);
+    }
+  }
+  .menu-icon {
+    display: none;
+
+    .fa-bars {
+      color: var(--white);
+    }
+  }      
+  .options {
+    order: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+    padding:0 0 0 5%;
+
+    .header-menu{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;     
+      .header-item.active{
+
+        .option {
+          font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+          padding: 10px 15px;
+          cursor: pointer;
+          color: var(--white);
+          font-size: 14px;
+          line-height: 14px;
+          font-weight: 300;
+          transition-duration: .5s;
+  
+          &:hover{
+            color:rgb(170, 170, 170);
+          }
+  
+          &:focus{
+            color: var(--white);
+          }
+        }
+
+        .dropdown-menu{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+
+          position: absolute;
+          visibility: hidden;
+          transform: translateY(-1.5em);
+          transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+
+          background: rgba($color: #000000, $alpha: 0.8);
+          z-index: -1;
+          width: 145px;                    
+          padding-top: 20px;
+
+          .header-item.active.dropdown-item{
+            color: var(--white);
+            max-height: 45px;
+            padding: 15px;
+            width: 145px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: padding-right;
+            transition-duration: .7s;
+
+            &:hover{
+              padding-right: 30px;
+              cursor: pointer;
+            }
+          }
+        }
+
+        &:hover{
+          .dropdown-menu{
+            visibility: visible;
+            opacity: 1;
+            z-index: 1;
+            transform: translateY(0%);
+            transition-delay: 0s, 0s, 0.3s;
+          }
+        }
+      }
+    }    
+  }
+}
+  
+@media screen and (max-width:980px){
+
+  @keyframes fadeIn {
+    0% {opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {opacity: 1;
+      transform: translateX(0);
+    }
+ }
+  .header{
+    position: fixed;
+  }
+  .header.active{
+    background: rgba($color: #000000, $alpha: 0.8);
+    height: 80px;
+    max-width: 100vw;
+    .logo-container {
+      height: 100%;
+      width: 100%;
+      order: 0;
+  
+      .jimenez-logo{
+        height: 80px;
+        filter: invert(65%);
+      }
+    }
+
+    .menu-icon {
+      order: 2;
+      display: block;
+      position: absolute;
+      top: 8%;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: var(--white);
+      z-index: 4;
+
+      .fa-times {
+        color: var(--white);
+        font-size: 1.5rem;
+        margin-top: 1%;
+        padding-right: 3px;
+        z-index: 4;
+      }
+    }
+    
+    .options {
+      width: auto;
+      height: 100%;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      z-index: 3;
+    }
+    .header-menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      top: 64px;
+      right: -100%;
+      opacity: 0.1;
+      transition: all .4s ease;
+      text-align: center;
+    }
+    .header-menu.active {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: space-around;
+      background: rgba($color: #000000, $alpha: 0.8);
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 3;
+      text-align: center;
+      padding-inline-start: 0;
+      animation: fadeIn 1s linear 0.9 ;
+      padding-top: 80px;
+    }
+    .header-item.active{
+      height: 80px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      transform: translate(0, -100%);
+    }
+    .option{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .option.active{
+      text-align: center;
+      width: 100%;
+      display: table;
+    }    
+  }
+  
+  
+}

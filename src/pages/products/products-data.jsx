@@ -1,19 +1,19 @@
-import jazzImage1 from '../../../images/big-jazz/IMG_8520.jpg';
-import jazzImage2 from '../../../images/big-jazz/IMG_8521.jpg';
-import jazzImage3 from '../../../images/big-jazz/IMG_8537.jpg';
-import jazzImage4 from '../../../images/big-jazz/IMG_8539.jpg';
-import jazzImage5 from '../../../images/big-jazz/IMG_8569.jpg';
-import jazzImage6 from '../../../images/big-jazz/IMG_8566.jpg';
+import jazzImage1 from '../../assets/images/big-jazz/IMG_8520.jpg';
+import jazzImage2 from '../../assets/images/big-jazz/IMG_8521.jpg';
+import jazzImage3 from '../../assets/images/big-jazz/IMG_8537.jpg';
+import jazzImage4 from '../../assets/images/big-jazz/IMG_8539.jpg';
+import jazzImage5 from '../../assets/images/big-jazz/IMG_8569.jpg';
+import jazzImage6 from '../../assets/images/big-jazz/IMG_8566.jpg';
 
-import bossaClassic1 from '../../../images/bossa-classic-salud/bossa-classic-salud-facebook/1.jpg';
-import bossaClassic2 from '../../../images/bossa-classic-salud/bossa-classic-salud-facebook/2.jpg';
-import bossaClassic3 from '../../../images/bossa-classic-salud/bossa-classic-salud-facebook/3.jpg';
-import bossaClassic4 from '../../../images/bossa-classic-salud/bossa-classic-salud-facebook/4.jpg';
-import bossaClassic5 from '../../../images/bossa-classic-salud/bossa-classic-salud-facebook/5.jpg';
-import bossaClassic6 from '../../../images/bossa-classic-salud/bossa-classic-salud-facebook/6.jpg';
-import bossaClassic7 from '../../../images/bossa-classic-salud/bossa-classic-salud-facebook/7.jpg';
-import bossaClassic8 from '../../../images/bossa-classic-salud/bossa-classic-salud-facebook/8.jpg';
-import bossaClassic9 from '../../../images/bossa-classic-salud/bossa-classic-salud-facebook/9.jpg';
+import bossaClassic1 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/1.jpg';
+import bossaClassic2 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/2.jpg';
+import bossaClassic3 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/3.jpg';
+import bossaClassic4 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/4.jpg';
+import bossaClassic5 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/5.jpg';
+import bossaClassic6 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/6.jpg';
+import bossaClassic7 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/7.jpg';
+import bossaClassic8 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/8.jpg';
+import bossaClassic9 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/9.jpg';
 
 
 

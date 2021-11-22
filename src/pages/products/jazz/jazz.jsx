@@ -1,8 +1,8 @@
 import React from 'react'
 import PRODUCTS_DATA from '../products-data';
-import CollectionPreview from '../../../../components/collection-preview/collection-preview.component';
+import CollectionPreview from '../../../components/collection-preview/collection-preview.component';
 
-class Bass extends React.Component {
+class Jazz extends React.Component {
     constructor(props){ 
         super(props);
 
@@ -16,9 +16,9 @@ class Bass extends React.Component {
 
         return(
         <div className='shop-page'>
-            ){
+            {
                 collections
-                .filter((item, idx) => idx === 1)
+                .filter((item, idx) => idx === 0)
                 .map(({id, ...otherCollectionProps}) => (
                     <CollectionPreview key={id} {...otherCollectionProps}/>
                     
@@ -29,4 +29,4 @@ class Bass extends React.Component {
     }
 }
 
-export default Bass;
+export default Jazz;
