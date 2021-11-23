@@ -1,14 +1,29 @@
 .contact{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     width: 100%;
     min-height: 100vh;
     color: var(--white);
     padding-top: 100px;
+    overflow: hidden;
 
     h1, h2{
-        margin: 20px;
+        margin: 30px;
         font-weight: 300;
+        line-height: 50px;
     }
 
+}
+@media screen and (max-width: 980px){
+    .contact{
+        h1, h2{
+            font-size: 24px;
+            line-height: 50px;
+            a{
+                font-size: 18px;
+            }
+        }
+    }
 }

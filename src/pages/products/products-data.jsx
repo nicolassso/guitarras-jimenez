@@ -1,21 +1,4 @@
-import jazzImage1 from '../../assets/images/big-jazz/IMG_8520.jpg';
-import jazzImage2 from '../../assets/images/big-jazz/IMG_8521.jpg';
-import jazzImage3 from '../../assets/images/big-jazz/IMG_8537.jpg';
-import jazzImage4 from '../../assets/images/big-jazz/IMG_8539.jpg';
-import jazzImage5 from '../../assets/images/big-jazz/IMG_8569.jpg';
-import jazzImage6 from '../../assets/images/big-jazz/IMG_8566.jpg';
-
-import bossaClassic1 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/1.jpg';
-import bossaClassic2 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/2.jpg';
-import bossaClassic3 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/3.jpg';
-import bossaClassic4 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/4.jpg';
-import bossaClassic5 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/5.jpg';
-import bossaClassic6 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/6.jpg';
-import bossaClassic7 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/7.jpg';
-import bossaClassic8 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/8.jpg';
-import bossaClassic9 from '../../assets/images/bossa-classic-salud/bossa-classic-salud-facebook/9.jpg';
-
-
+import IMAGES from './products.images'
 
 const PRODUCTS_DATA = [
     {
@@ -26,28 +9,27 @@ const PRODUCTS_DATA = [
             {
                 id: 1,
                 name: 'BIG JAZZ Archtop',
-                imageUrl: jazzImage3,
-                img2: jazzImage2,
-                img3: jazzImage5,
-                img4: jazzImage4
+                imageUrl: IMAGES.big.jazz.jazzImage1,
+                img2: IMAGES.big.jazz.jazzImage2,
+                img3: IMAGES.tall.jazz.jazzImage1,
+                img4: IMAGES.big.jazz.jazzImage3
             },
             {
                 id: 2,
                 name: 'BIG LITTLE JAZ Archtop',
-                imageUrl: jazzImage1,
-                img2: jazzImage2,
-                img3: jazzImage6,
-                img4: jazzImage4
+                imageUrl: IMAGES.big.jazz.jazzImage4,
+                img2: IMAGES.big.jazz.jazzImage5,
+                img3: IMAGES.tall.jazz.jazzImage2,
+                img4: IMAGES.big.jazz.jazzImage6
             },
             {
                 id: 3,
                 name: 'LITTLE JAZZ',
-                imageUrl: jazzImage6,
-                img2: jazzImage2,
-                img3: jazzImage3,
-                img4: jazzImage4
+                imageUrl: IMAGES.big.jazz.jazzImage2,
+                img2: IMAGES.big.jazz.jazzImage6,
+                img3: IMAGES.tall.jazz.jazzImage3,
+                img4: IMAGES.big.jazz.jazzImage5
             }
-
         ]
     },
     {
@@ -58,26 +40,26 @@ const PRODUCTS_DATA = [
             {
                 id: 1,
                 name: 'Bass1',
-                imageUrl: bossaClassic4,
-                img2: bossaClassic1,
-                img3: bossaClassic2,
-                img4: bossaClassic9
+                imageUrl: IMAGES.big.bossa.bossaImage1,
+                img2: IMAGES.big.bossa.bossaImage4,
+                img3: IMAGES.tall.bossa.bossaImage1,
+                img4: IMAGES.big.bossa.bossaImage3
             },
             {
                 id: 2,
                 name: 'Bass2',
-                imageUrl: bossaClassic8,
-                img2: bossaClassic4,
-                img3: bossaClassic3,
-                img4: bossaClassic1
+                imageUrl: IMAGES.big.bossa.bossaImage2,
+                img2: IMAGES.big.bossa.bossaImage3,
+                img3: IMAGES.tall.bossa.bossaImage2,
+                img4: IMAGES.big.bossa.bossaImage2
             },
             {
                 id: 3,
                 name: 'Bass3',
-                imageUrl: bossaClassic5,
-                img2: bossaClassic1,
-                img3: bossaClassic2,
-                img4: bossaClassic4
+                imageUrl: IMAGES.big.bossa.bossaImage3,
+                img2: IMAGES.big.bossa.bossaImage2,
+                img3: IMAGES.tall.bossa.bossaImage3,
+                img4: IMAGES.big.bossa.bossaImage1
             }
         ]
     },
@@ -89,26 +71,26 @@ const PRODUCTS_DATA = [
             {
                 id: 1,
                 name: 'Nylon string 1',
-                imageUrl: jazzImage1,
-                img2: jazzImage2,
-                img3: jazzImage3,
-                img4: jazzImage4
+                imageUrl: IMAGES.big.jazz.jazzImage7,
+                img2: IMAGES.big.jazz.jazzImage4,
+                img3: IMAGES.tall.jazz.jazzImage4,
+                img4: IMAGES.big.bossa.bossaImage4
             },
             {
                 id: 2,
                 name: 'Nylon string 2',
-                imageUrl: jazzImage2,
-                img2: jazzImage2,
-                img3: jazzImage3,
-                img4: jazzImage4
+                imageUrl: IMAGES.big.jazz.jazzImage2,
+                img2: IMAGES.big.jazz.jazzImage3,
+                img3: IMAGES.tall.bossa.bossaImage9,
+                img4: IMAGES.big.jazz.jazzImage1
             },
             {
                 id: 3,
                 name: 'Nylon string 3',
-                imageUrl: jazzImage2,
-                img2: jazzImage2,
-                img3: jazzImage3,
-                img4: jazzImage4
+                imageUrl: IMAGES.big.bossa.bossaImage1,
+                img2: IMAGES.big.jazz.jazzImage2,
+                img3: IMAGES.tall.jazz.jazzImage7,
+                img4: IMAGES.big.bossa.bossaImage4
             }
         ]
     }

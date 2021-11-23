@@ -10,46 +10,50 @@
       grid-template-columns: repeat(6, 60px);
       grid-template-rows: repeat(4, 60px);
     }
-  
+    //IMAGE TIENE QUE SER PROPORCION 300X240(RECTANGULO APAISADO)
     .image {
       grid-column-start: 1;
       grid-column-end: 6;
       grid-row-start: 1;
       grid-row-end: 5;
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       background-position:center;
 
     }
+
+    //IMAGE2 TIENE QUE SER PROPORCION 60X60
     .image2{
       grid-column-start: 6;
       grid-column-end: 7;
       grid-row-start: 1;
       grid-row-end: 2;
       
-      background-size: contain;
+      background-size: cover;
       background-position: center;      
       background-repeat: no-repeat;
 
     }
+    //IMAGE3 TIENE QUE SER PROPORCION 60X120 (VERTICAL)
     .image3{
       grid-column-start: 6;
       grid-column-end: 7;
       grid-row-start: 2;
       grid-row-end: 4;
       
-      background-size: contain;
+      background-size: cover;
       background-position: center;      
       background-repeat: no-repeat;
 
     }
+    //IMAGE4 TIENE QUE SER PROPORCION 60X60
     .image4{
       grid-column-start: 6;
       grid-column-end: 7;
       grid-row-start: 4;
       grid-row-end: 5;
       
-      background-size: contain;
+      background-size: cover;
       background-position: center;      
       background-repeat: no-repeat;
 

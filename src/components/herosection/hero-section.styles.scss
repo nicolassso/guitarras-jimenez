@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('../../assets/images/big-jazz/IMG_8578.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('../../assets/images/IMG_8578.jpg');
   background-size:cover;
   background-position: 0% -35%;
   height: 120vh;
@@ -32,10 +32,10 @@
 @media screen and (max-width: 980px) {
   .hero-container {
     box-sizing: border-box;
-    background-image: url('../../assets/images/big-jazz/IMG_8578.jpg');
-    background-size:cover;
-    background-position: center;
-    height: 100vh;
+    background-image: url('../../assets/images/IMG_8578.jpg');
+    background-size: cover;
+    background-position: 40%;
+    height: 110vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@
   
     .herosection-content{
       color: var(--white);
-      margin: 75% 40% auto 10%;
+      margin: 75% 0 auto 10%;
       h2{
         letter-spacing: 5px;
         font-size: 40px;

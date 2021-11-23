@@ -10,7 +10,7 @@ const Footer = () => (
             <div className="footer-top-left">
                 <div className="footer-top-left-content">
                     <div className="top-left-content-box-title">
-                        <h2>PONTE EN CONTACTO</h2>
+                        <h2>HABLA CON NOSOTROS</h2>
                     </div>
                     <div className="top-left-content-box-title-opening">
                         <h4>HORARIOS</h4>
@@ -47,7 +47,7 @@ const Footer = () => (
                         <h4>TELÉFONO</h4>
                     </div>
                     <div className="top-right-content-box-contact">
-                        <a href="tel:+34 678 249 427">+34 678 249 427</a>
+                        <a href="tel:+34 678 249 427">00 34 678 249 427</a>
                     </div>
                     <div className="top-right-content-box-title-2">
                         <h4>EMAIL</h4>
