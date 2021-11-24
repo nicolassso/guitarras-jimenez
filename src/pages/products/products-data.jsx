@@ -38,7 +38,7 @@ const PRODUCTS_DATA = [
         routename: 'bass',
         items: [
             {
-                id: 1,
+                id: 4,
                 name: 'Bass1',
                 imageUrl: IMAGES.big.bossa.bossaImage1,
                 img2: IMAGES.big.bossa.bossaImage4,
@@ -46,7 +46,7 @@ const PRODUCTS_DATA = [
                 img4: IMAGES.big.bossa.bossaImage3
             },
             {
-                id: 2,
+                id: 5,
                 name: 'Bass2',
                 imageUrl: IMAGES.big.bossa.bossaImage2,
                 img2: IMAGES.big.bossa.bossaImage3,
@@ -54,7 +54,7 @@ const PRODUCTS_DATA = [
                 img4: IMAGES.big.bossa.bossaImage2
             },
             {
-                id: 3,
+                id: 6,
                 name: 'Bass3',
                 imageUrl: IMAGES.big.bossa.bossaImage3,
                 img2: IMAGES.big.bossa.bossaImage2,
@@ -69,7 +69,7 @@ const PRODUCTS_DATA = [
         routename: 'nylon strings',
         items: [
             {
-                id: 1,
+                id: 7,
                 name: 'Nylon string 1',
                 imageUrl: IMAGES.big.jazz.jazzImage7,
                 img2: IMAGES.big.jazz.jazzImage4,
@@ -77,7 +77,7 @@ const PRODUCTS_DATA = [
                 img4: IMAGES.big.bossa.bossaImage4
             },
             {
-                id: 2,
+                id: 8,
                 name: 'Nylon string 2',
                 imageUrl: IMAGES.big.jazz.jazzImage2,
                 img2: IMAGES.big.jazz.jazzImage3,
@@ -85,7 +85,7 @@ const PRODUCTS_DATA = [
                 img4: IMAGES.big.jazz.jazzImage1
             },
             {
-                id: 3,
+                id: 9,
                 name: 'Nylon string 3',
                 imageUrl: IMAGES.big.bossa.bossaImage1,
                 img2: IMAGES.big.jazz.jazzImage2,

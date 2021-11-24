@@ -1,14 +1,15 @@
 .collection-item {
     display: grid;
     align-items: center;
-    width: 100%;
+    width: fit-content;
+    margin: auto;
 
     .images-grid{
       display: grid;
       width: 100%;
 
-      grid-template-columns: repeat(6, 60px);
-      grid-template-rows: repeat(4, 60px);
+      grid-template-columns: repeat(7, 50px);
+      grid-template-rows: repeat(6, 45px);
     }
     //IMAGE TIENE QUE SER PROPORCION 300X240(RECTANGULO APAISADO)
     .image {
@@ -24,10 +25,10 @@
 
     //IMAGE2 TIENE QUE SER PROPORCION 60X60
     .image2{
-      grid-column-start: 6;
-      grid-column-end: 7;
-      grid-row-start: 1;
-      grid-row-end: 2;
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 5;
+      grid-row-end: 7;
       
       background-size: cover;
       background-position: center;      
@@ -37,9 +38,9 @@
     //IMAGE3 TIENE QUE SER PROPORCION 60X120 (VERTICAL)
     .image3{
       grid-column-start: 6;
-      grid-column-end: 7;
-      grid-row-start: 2;
-      grid-row-end: 4;
+      grid-column-end: 8;
+      grid-row-start: 1;
+      grid-row-end: 5;
       
       background-size: cover;
       background-position: center;      
@@ -48,10 +49,10 @@
     }
     //IMAGE4 TIENE QUE SER PROPORCION 60X60
     .image4{
-      grid-column-start: 6;
-      grid-column-end: 7;
-      grid-row-start: 4;
-      grid-row-end: 5;
+      grid-column-start: 5;
+      grid-column-end: 8;
+      grid-row-start: 5;
+      grid-row-end: 7;
       
       background-size: cover;
       background-position: center;      
@@ -72,51 +73,17 @@
       }
     }
   }
-  
-  @media screen and (max-width: 1100px) {
-    .collection-item {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      height: 350px;
-      color: var(--white);
-      margin-bottom: 25px;
-      }
-    
-  }
-
-  @media screen and (max-width: 600px) {
 
 
-    .collection-item {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      height: 350px;
-      color: var(--white);
-      margin-bottom: 25px;   
-      }
-
-
-    .collection-footer {
-      width: 100%;
-      height: 5%;
-      display: flex;
-      justify-content: space-between;
-      font-size: 18px;
-      text-align: center;  
-      
-    }
-  }
-
-  @media screen and (max-width: 500px){
+  @media screen and (max-width: 880px){
 
     .collection-item{
+      margin-bottom: 60px;
+
     .images-grid{
       display: grid;
-
-      grid-template-columns: repeat(5, 14vw);
-      grid-template-rows: repeat(5, 14vw);
+      grid-template-columns: repeat(7, 12.5vw);
+      grid-template-rows: repeat(6, 13vw);
     }
     
     .image {
@@ -124,43 +91,43 @@
       grid-column-end: 6;
       grid-row-start: 1;
       grid-row-end: 5;
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
 
     }
     .image2{
       grid-column-start: 1;
-      grid-column-end: 3;
+      grid-column-end: 5;
       grid-row-start: 5;
-      grid-row-end: 6;
+      grid-row-end: 7;
       
-      background-size: contain;
+      background-size: cover;
       background-position: center;      
       background-repeat: no-repeat;
 
     }
     .image3{
-      grid-column-start: 3;
-      grid-column-end: 4;
-      grid-row-start: 5;
-      grid-row-end: 6;
+      grid-column-start: 6;
+      grid-column-end: 8;
+      grid-row-start: 1;
+      grid-row-end: 5;
       
-      background-size: contain;
+      background-size: cover;
       background-position: center;      
       background-repeat: no-repeat;
 
     }
     .image4{
-      grid-column-start: 4;
-      grid-column-end: 6;
+      grid-column-start: 5;
+      grid-column-end: 8;
       grid-row-start: 5;
-      grid-row-end: 6;
+      grid-row-end: 7;
       
-      background-size: contain;
+      background-size: cover;
       background-position: center;      
       background-repeat: no-repeat;
 
     }
   }
-  }
+}

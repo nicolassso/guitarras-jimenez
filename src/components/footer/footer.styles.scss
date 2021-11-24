@@ -3,10 +3,10 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6) ), url('../../assets/images/300x240/big-jazz/big-jazz-300x240-2.jpg');
+    background-image: url('../../assets/images/60x120/bossa-classic/bossa-classic-60x120-6.jpg');
     background-attachment: fixed;
-    background-size: 75%;
-    background-position: 0% 60%;
+    background-size: 80%;
+    background-position: 0% 100%;
     background-repeat: no-repeat;
     .footer-top{
         height: 516px;
@@ -165,7 +165,10 @@
         display: flex;
         flex-direction: column;
         height: fit-content;
-        background-position: bottom;
+        background-image: url('../../assets/images/60x120/bossa-classic/bossa-classic-60x120-6.jpg');
+        background-attachment: fixed;
+        background-size: 300%;
+        background-position: 30% 90%;
         .footer-top{
             display: flex;
             flex-direction: column;
