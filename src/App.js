@@ -10,6 +10,7 @@ import Contact from './pages/contact/contact.component.jsx'
 import Jazz from './pages/products/jazz/jazz';
 import Bass from './pages/products/bass/bass';
 import Nylonstrings from './pages/products/nylonstrings/nylonstrings';
+import ItemPage from './pages/products/item-page/item-page.component'
 
 import Header from './components/header/header.component.jsx';
 import Footer from './components/footer/footer.component.jsx'
@@ -31,6 +32,7 @@ function App() {
           <Route exact path='/jazz' component={Jazz} />
           <Route exact path='/bass' component={Bass} />
           <Route exact path='/nylonstrings' component={Nylonstrings} />
+          <Route exact path='/item-page' component={ItemPage} />
           <Route exact path='/contact' component={Contact} />
 
         </Switch>

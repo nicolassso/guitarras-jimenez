@@ -1,50 +1,71 @@
 import React from 'react'
 import './collection-item.styles.scss'
+import {useHistory} from 'react-router-dom'
 
-const CollectionItem = ({id, name, imageUrl, img2, img3, img4}) => (
+
+function CollectionItem({id, classe, name, imageUrl, img2, img3, img4, description}){
 
 
-    <div className='collection-item'>
+    const history = useHistory();
+    
+    const handleClick = () => {
+      history.push({
+            pathname: '/item-page',
+            state:{
+                id: id,
+                classe: classe,
+                title: name,
+                description: description
+            }
+        })
+    }
 
-        {/*div classname image tiene que ser un grid de 6colx4row */}
+    return(
 
-        <div className="images-grid">
+        <div className='collection-item'
+        onClick={handleClick}
+        >
 
-        <div 
-        className='image'
-        style={{
-            backgroundImage:`url(${imageUrl})`
-        }}
-        />
+            {/*div classname image tiene que ser un grid de 6colx4row */}
 
-        <div 
-        className="image2"
-        style={{
-            backgroundImage:`url(${img2})`
-        }}
-        />
-        
-        <div 
-        className="image3"
-        style={{
-            backgroundImage:`url(${img3})`
-        }}
-        />
-        
-        <div 
-        className="image4"
-        style={{
-            backgroundImage:`url(${img4})`
-        }}
-        />
+            <div className="images-grid">
 
+            <div 
+            className='image'
+            style={{
+                backgroundImage:`url(${imageUrl})`
+            }}
+            />
+
+            <div 
+            className="image2"
+            style={{
+                backgroundImage:`url(${img2})`
+            }}
+            />
+            
+            <div 
+            className="image3"
+            style={{
+                backgroundImage:`url(${img3})`
+            }}
+            />
+            
+            <div 
+            className="image4"
+            style={{
+                backgroundImage:`url(${img4})`
+            }}
+            />
+
+            </div>
+
+
+            <div className="collection-footer">
+                <span className="name">{name}</span>  
+            </div>
         </div>
-
-
-        <div className="collection-footer">
-            <span className="name">{name} + {id}</span>  
-        </div>
-    </div>
-)
+    )
+}
 
 export default CollectionItem;

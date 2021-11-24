@@ -3,6 +3,8 @@
     align-items: center;
     width: fit-content;
     margin: auto;
+    cursor: pointer;
+    overflow: hidden;
 
     .images-grid{
       display: grid;
@@ -10,6 +12,11 @@
 
       grid-template-columns: repeat(7, 50px);
       grid-template-rows: repeat(6, 45px);
+      
+      &:hover{
+        transform: scale(1.05);
+        transition: transform 1.5s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+      }
     }
     //IMAGE TIENE QUE SER PROPORCION 300X240(RECTANGULO APAISADO)
     .image {
@@ -20,7 +27,6 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position:center;
-
     }
 
     //IMAGE2 TIENE QUE SER PROPORCION 60X60
@@ -33,7 +39,6 @@
       background-size: cover;
       background-position: center;      
       background-repeat: no-repeat;
-
     }
     //IMAGE3 TIENE QUE SER PROPORCION 60X120 (VERTICAL)
     .image3{
@@ -45,7 +50,6 @@
       background-size: cover;
       background-position: center;      
       background-repeat: no-repeat;
-
     }
     //IMAGE4 TIENE QUE SER PROPORCION 60X60
     .image4{
@@ -57,7 +61,6 @@
       background-size: cover;
       background-position: center;      
       background-repeat: no-repeat;
-
     }
   
     .collection-footer {
