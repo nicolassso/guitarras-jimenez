@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/guitarras-jimenez/static/css/main.b94bbf54.chunk.css",
-    "main.js": "/guitarras-jimenez/static/js/main.3c3214a2.chunk.js",
-    "main.js.map": "/guitarras-jimenez/static/js/main.3c3214a2.chunk.js.map",
+    "main.css": "/guitarras-jimenez/static/css/main.73b478fe.chunk.css",
+    "main.js": "/guitarras-jimenez/static/js/main.3f14ce01.chunk.js",
+    "main.js.map": "/guitarras-jimenez/static/js/main.3f14ce01.chunk.js.map",
     "runtime-main.js": "/guitarras-jimenez/static/js/runtime-main.03544ff6.js",
     "runtime-main.js.map": "/guitarras-jimenez/static/js/runtime-main.03544ff6.js.map",
     "static/js/2.3c4ea215.chunk.js": "/guitarras-jimenez/static/js/2.3c4ea215.chunk.js",
     "static/js/2.3c4ea215.chunk.js.map": "/guitarras-jimenez/static/js/2.3c4ea215.chunk.js.map",
     "index.html": "/guitarras-jimenez/index.html",
-    "static/css/main.b94bbf54.chunk.css.map": "/guitarras-jimenez/static/css/main.b94bbf54.chunk.css.map",
+    "static/css/main.73b478fe.chunk.css.map": "/guitarras-jimenez/static/css/main.73b478fe.chunk.css.map",
     "static/js/2.3c4ea215.chunk.js.LICENSE.txt": "/guitarras-jimenez/static/js/2.3c4ea215.chunk.js.LICENSE.txt",
     "static/media/hero-section.styles.scss": "/guitarras-jimenez/static/media/IMG_8578.fed5e040.jpg",
-    "static/media/footer.styles.scss": "/guitarras-jimenez/static/media/big-jazz-300x240-2.cbcd482d.jpg",
+    "static/media/big-jazz-300x240-2.jpg": "/guitarras-jimenez/static/media/big-jazz-300x240-2.cbcd482d.jpg",
     "static/media/big-jazz-300x240-3.jpg": "/guitarras-jimenez/static/media/big-jazz-300x240-3.78080b3e.jpg",
     "static/media/big-jazz-300x240-4.jpg": "/guitarras-jimenez/static/media/big-jazz-300x240-4.36667da5.jpg",
     "static/media/big-jazz-300x240-5.jpg": "/guitarras-jimenez/static/media/big-jazz-300x240-5.e7585daf.jpg",
@@ -60,7 +60,7 @@
     "static/media/bossa-classic-60x120-3.jpg": "/guitarras-jimenez/static/media/bossa-classic-60x120-3.908b87f2.jpg",
     "static/media/bossa-classic-60x120-4.jpg": "/guitarras-jimenez/static/media/bossa-classic-60x120-4.190240f9.jpg",
     "static/media/bossa-classic-60x120-5.jpg": "/guitarras-jimenez/static/media/bossa-classic-60x120-5.86524293.jpg",
-    "static/media/bossa-classic-60x120-6.jpg": "/guitarras-jimenez/static/media/bossa-classic-60x120-6.feed6977.jpg",
+    "static/media/footer.styles.scss": "/guitarras-jimenez/static/media/bossa-classic-60x120-6.feed6977.jpg",
     "static/media/bossa-classic-60x120-7.jpg": "/guitarras-jimenez/static/media/bossa-classic-60x120-7.676dca73.jpg",
     "static/media/bossa-classic-60x120-8.jpg": "/guitarras-jimenez/static/media/bossa-classic-60x120-8.0f95be4b.jpg",
     "static/media/bossa-classic-60x120-9.jpg": "/guitarras-jimenez/static/media/bossa-classic-60x120-9.da129d1a.jpg",
@@ -70,7 +70,7 @@
   "entrypoints": [
     "static/js/runtime-main.03544ff6.js",
     "static/js/2.3c4ea215.chunk.js",
-    "static/css/main.b94bbf54.chunk.css",
-    "static/js/main.3c3214a2.chunk.js"
+    "static/css/main.73b478fe.chunk.css",
+    "static/js/main.3f14ce01.chunk.js"
   ]
 }
