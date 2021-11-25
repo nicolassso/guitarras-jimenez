@@ -1,0 +1,2 @@
+.contact{display:-webkit-flex;display:flex;-webkit-flex-direction:column;flex-direction:column;-webkit-align-items:center;align-items:center;text-align:center;width:100%;min-height:100vh;color:var(--white);padding-top:100px}.contact h1,.contact h2{margin:30px;font-weight:300;line-height:50px}@media screen and (max-width:980px){.contact h1,.contact h2{font-size:24px;line-height:50px}.contact h1 a,.contact h2 a{font-size:18px}}
+/*# sourceMappingURL=11.7489b8d5.chunk.css.map */
