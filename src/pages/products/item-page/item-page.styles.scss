@@ -25,10 +25,12 @@
             display: flex;
             align-items: center;
             margin-bottom: 100px;
+            justify-content: space-between;
         }
         .item-description{
             width: 70%;
             align-self: center;
+            text-align: center;
 
             p{
                 font-family: 'Roboto', Arial, Helvetica, sans-serif;

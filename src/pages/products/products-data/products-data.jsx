@@ -24,7 +24,7 @@ const PRODUCTS_DATA = [
                 img2: IMAGES.big.jazz.jazzImage5,
                 img3: IMAGES.tall.jazz.jazzImage2,
                 img4: IMAGES.big.jazz.jazzImage6,
-                description: ''
+                description: 'Some description'
             },
             {
                 id: 3,
@@ -34,7 +34,7 @@ const PRODUCTS_DATA = [
                 img2: IMAGES.big.jazz.jazzImage6,
                 img3: IMAGES.tall.jazz.jazzImage3,
                 img4: IMAGES.big.jazz.jazzImage5,
-                description: ''
+                description: 'Some description'
             }
         ]
     },
@@ -51,7 +51,7 @@ const PRODUCTS_DATA = [
                 img2: IMAGES.big.bossa.bossaImage4,
                 img3: IMAGES.tall.bossa.bossaImage1,
                 img4: IMAGES.big.bossa.bossaImage3,
-                description: ''
+                description: 'Some description'
             },
             {
                 id: 5,
@@ -61,7 +61,7 @@ const PRODUCTS_DATA = [
                 img2: IMAGES.big.bossa.bossaImage3,
                 img3: IMAGES.tall.bossa.bossaImage2,
                 img4: IMAGES.big.bossa.bossaImage2,
-                description: ''
+                description: 'Some description'
             },
             {
                 id: 6,
@@ -71,7 +71,7 @@ const PRODUCTS_DATA = [
                 img2: IMAGES.big.bossa.bossaImage2,
                 img3: IMAGES.tall.bossa.bossaImage3,
                 img4: IMAGES.big.bossa.bossaImage1,
-                description: ''
+                description: 'Some description'
             }
         ]
     },
@@ -88,7 +88,7 @@ const PRODUCTS_DATA = [
                 img2: IMAGES.big.jazz.jazzImage4,
                 img3: IMAGES.tall.jazz.jazzImage4,
                 img4: IMAGES.big.bossa.bossaImage4,
-                description: ''
+                description: 'Some description'
             },
             {
                 id: 8,
@@ -98,7 +98,7 @@ const PRODUCTS_DATA = [
                 img2: IMAGES.big.jazz.jazzImage3,
                 img3: IMAGES.tall.bossa.bossaImage9,
                 img4: IMAGES.big.jazz.jazzImage1,
-                description: ''
+                description: 'Some description'
             },
             {
                 id: 9,
@@ -108,7 +108,7 @@ const PRODUCTS_DATA = [
                 img2: IMAGES.big.jazz.jazzImage2,
                 img3: IMAGES.tall.jazz.jazzImage7,
                 img4: IMAGES.big.bossa.bossaImage4,
-                description: ''
+                description: 'Some description'
             }
         ]
     }

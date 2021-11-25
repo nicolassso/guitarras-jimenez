@@ -1,22 +1,20 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import './App.scss';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import { ScrollService } from './services/scrollService.component';
+import Loading from './components/loading/loading.component'
 
-import Home from './pages/home/home.component.jsx';
-import Products from './pages/products/products.component.jsx';
-import Contact from './pages/contact/contact.component.jsx'
-import Jazz from './pages/products/jazz/jazz';
-import Bass from './pages/products/bass/bass';
-import Nylonstrings from './pages/products/nylonstrings/nylonstrings';
-import ItemPage from './pages/products/item-page/item-page.component'
+const Header = lazy(() => import('./components/header/header.component.jsx'));
+const Footer = lazy(() => import('./components/footer/footer.component.jsx'));
 
-import Header from './components/header/header.component.jsx';
-import Footer from './components/footer/footer.component.jsx'
-
-
-
+const Home = lazy(() => import('./pages/home/home.component.jsx'));
+const Products = lazy(() => import('./pages/products/products.component.jsx'));
+const Contact = lazy(() => import('./pages/contact/contact.component.jsx'));
+const Jazz = lazy(() => import('./pages/products/jazz/jazz'));
+const Bass = lazy(() => import('./pages/products/bass/bass'));
+const Nylonstrings = lazy(() => import('./pages/products/nylonstrings/nylonstrings'));
+const ItemPage = lazy(() => import('./pages/products/item-page/item-page.component'));
 
 
 function App() {
@@ -24,20 +22,21 @@ function App() {
     <>
     <Router basename='/guitarras-jimenez'>
         
-        <Header />
         <ScrollService>
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/products' component={Products} />
-          <Route exact path='/jazz' component={Jazz} />
-          <Route exact path='/bass' component={Bass} />
-          <Route exact path='/nylonstrings' component={Nylonstrings} />
-          <Route exact path='/item-page' component={ItemPage} />
-          <Route exact path='/contact' component={Contact} />
-
-        </Switch>
+          <Suspense fallback={<Loading />}>
+            <Header />
+              <Switch>
+                <Route exact path='/' component={Home} />
+                <Route exact path='/products' component={Products} />
+                <Route exact path='/jazz' component={Jazz} />
+                <Route exact path='/bass' component={Bass} />
+                <Route exact path='/nylonstrings' component={Nylonstrings} />
+                <Route exact path='/item-page' component={ItemPage} />
+                <Route exact path='/contact' component={Contact} />
+              </Switch>
+              <Footer />
+          </Suspense>
         </ScrollService>
-        <Footer />
     </Router>
     </>
   );
