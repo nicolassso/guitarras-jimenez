@@ -6,7 +6,7 @@
   align-items: center;
   background: rgba($color: #000000, $alpha: 0.8);
   position: fixed;
-  z-index: 90;
+  z-index: 1;
   .logo-container {
     height: 100%;
     width: 95.1px;
@@ -98,7 +98,7 @@
           .dropdown-menu{
             visibility: visible;
             opacity: 1;
-            z-index: 999;
+            z-index: 1;
             transform: translateY(0%);
             transition-delay: 0s, 0s, 0.3s;
           }
@@ -118,13 +118,13 @@
       transform: translateX(0);
     }
  }
-  .header{
-    position: fixed;
-  }
+
   .header.active{
+    position: fixed;
     background: rgba($color: #000000, $alpha: 0.8);
     height: 80px;
     max-width: 100vw;
+
     .logo-container {
       height: 100%;
       width: 100%;
@@ -146,14 +146,15 @@
       font-size: 1.5rem;
       cursor: pointer;
       color: var(--white);
-      z-index: 4;
+      opacity: 1;
+      z-index: 999;
 
       .fa-times {
         color: var(--white);
         font-size: 1.5rem;
         margin-top: 1%;
         padding-right: 3px;
-        z-index: 4;
+        z-index: 999;
       }
     }
     
