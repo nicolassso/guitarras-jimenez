@@ -52,16 +52,8 @@ const IMAGES = {
             bossaImage5: require('../../../assets/images/60x120/bossa-classic/bossa-classic-60x120-5.jpg').default,
             bossaImage6: require('../../../assets/images/60x120/bossa-classic/bossa-classic-60x120-6.jpg').default,
             bossaImage7: require('../../../assets/images/60x120/bossa-classic/bossa-classic-60x120-7.jpg').default,
-            bossaImage8: require('../../../assets/images/60x120/bossa-classic/bossa-classic-60x120-8.jpg').default,
-            bossaImage9: require('../../../assets/images/60x120/bossa-classic/bossa-classic-60x120-9.jpg').default,
-            bossaImage10: require('../../../assets/images/60x120/bossa-classic/bossa-classic-60x120-10.jpg').default,
-            bossaImage11: require('../../../assets/images/60x120/bossa-classic/bossa-classic-60x120-11.jpg').default,
             bossaImage12: require('../../../assets/images/60x120/bossa-classic/bossa-classic-60x120-12.jpg').default,
-            bossaImage13: require('../../../assets/images/60x120/bossa-classic/bossa-classic-60x120-13.jpg').default,
-            bossaImage14: require('../../../assets/images/60x120/bossa-classic/bossa-classic-60x120-14.jpg').default,
-            bossaImage15: require('../../../assets/images/60x120/bossa-classic/bossa-classic-60x120-15.jpg').default,
-            bossaImage16: require('../../../assets/images/60x120/bossa-classic/bossa-classic-60x120-16.jpg').default,
-            bossaImage17: require('../../../assets/images/60x120/bossa-classic/bossa-classic-60x120-17.jpg').default
+            bossaImage14: require('../../../assets/images/60x120/bossa-classic/bossa-classic-60x120-14.jpg').default
         }
     },
 
@@ -72,6 +64,9 @@ const IMAGES = {
         bossa:{
             bossaImage1: require('../../../assets/images/60x60/bossa-classic/bossa-60x60.jpg').default
         }
+    },
+    id: {
+        id:'1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24'
     }
 
 }

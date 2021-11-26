@@ -1,6 +1,7 @@
 import React from 'react'
 import PRODUCTS_DATA from '../products-data/products-data';
 import CollectionPreview from '../../../components/collection-preview/collection-preview.component';
+import '../products.styles.scss'
 
 class Nylonstrings extends React.Component {
     constructor(props){ 

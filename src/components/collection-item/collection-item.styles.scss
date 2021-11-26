@@ -10,8 +10,8 @@
       display: grid;
       width: 100%;
 
-      grid-template-columns: repeat(7, 50px);
-      grid-template-rows: repeat(6, 45px);
+      grid-template-columns: repeat(6, 60px);
+      grid-template-rows: repeat(4, 60px);
       
       &:hover{
         transform: scale(1.05);
@@ -31,10 +31,10 @@
 
     //IMAGE2 TIENE QUE SER PROPORCION 60X60
     .image2{
-      grid-column-start: 1;
-      grid-column-end: 5;
-      grid-row-start: 5;
-      grid-row-end: 7;
+      grid-column-start: 6;
+      grid-column-end: 7;
+      grid-row-start: 1;
+      grid-row-end: 2;
       
       background-size: cover;
       background-position: center;      
@@ -43,9 +43,9 @@
     //IMAGE3 TIENE QUE SER PROPORCION 60X120 (VERTICAL)
     .image3{
       grid-column-start: 6;
-      grid-column-end: 8;
-      grid-row-start: 1;
-      grid-row-end: 5;
+      grid-column-end: 7;
+      grid-row-start: 2;
+      grid-row-end: 4;
       
       background-size: cover;
       background-position: center;      
@@ -53,10 +53,10 @@
     }
     //IMAGE4 TIENE QUE SER PROPORCION 60X60
     .image4{
-      grid-column-start: 5;
-      grid-column-end: 8;
-      grid-row-start: 5;
-      grid-row-end: 7;
+      grid-column-start: 6;
+      grid-column-end: 7;
+      grid-row-start: 4;
+      grid-row-end: 5;
       
       background-size: cover;
       background-position: center;      

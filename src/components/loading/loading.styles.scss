@@ -34,3 +34,14 @@
           }
     }
 }
+
+@media screen and (max-width: 980px){
+    .loading-page{
+        .loading-content{
+            .spin::before {
+                top: 40%;
+                left: 43%;
+              }
+        }
+    }
+}

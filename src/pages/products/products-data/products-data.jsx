@@ -82,7 +82,7 @@ const PRODUCTS_DATA = [
         items: [
             {
                 id: 7,
-                classe: 'nylon',
+                classe: 'bossa',
                 name: 'Nylon string 1',
                 imageUrl: IMAGES.big.jazz.jazzImage7,
                 img2: IMAGES.big.jazz.jazzImage4,
@@ -92,17 +92,17 @@ const PRODUCTS_DATA = [
             },
             {
                 id: 8,
-                classe: 'nylon',
+                classe: 'bossa',
                 name: 'Nylon string 2',
                 imageUrl: IMAGES.big.jazz.jazzImage2,
                 img2: IMAGES.big.jazz.jazzImage3,
-                img3: IMAGES.tall.bossa.bossaImage9,
+                img3: IMAGES.tall.bossa.bossaImage4,
                 img4: IMAGES.big.jazz.jazzImage1,
                 description: 'Some description'
             },
             {
                 id: 9,
-                classe: 'nylon',
+                classe: 'bossa',
                 name: 'Nylon string 3',
                 imageUrl: IMAGES.big.bossa.bossaImage1,
                 img2: IMAGES.big.jazz.jazzImage2,
