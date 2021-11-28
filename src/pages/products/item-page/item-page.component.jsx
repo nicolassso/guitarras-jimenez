@@ -31,7 +31,11 @@ function ItemPage(props) {
     let wideImages = imgs.big[classeRecibida]
     let squareImages = imgs.small[classeRecibida]
 
-   
+    //CREATE AN ARRAY WITH THE IMAGES TO PRINT THEM
+    let arrayImages = Object.values(tallImages)
+    console.log(arrayImages)
+
+    console.log(arrayImages[6] + ' this one should be -7.jpg')
 
 
     return (
@@ -47,7 +51,6 @@ function ItemPage(props) {
                             Object.values(tallImages)
                             .filter((item, idx) => idx < 4)
                             .map((item, id)=> {
-
                                     return <img key={id} src={item} />
                             })
                         }
@@ -71,10 +74,7 @@ function ItemPage(props) {
                                     return <img key={id} src={item} />
                             })
                         }
-                    </div>
-                    
-                    
-                                    
+                    </div>          
                 </div>
                 <div className="item-description">
                     <p>{props.location.state.description}</p>
