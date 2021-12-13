@@ -31,7 +31,7 @@ function Header() {
     <div className="header active">
       <div className='logo-container' to='/'>
             <Link className='logo-link' to='/'>
-                <img className="jimenez-logo" src={Logo}/>
+                <img className="jimenez-logo" alt="logo" src={Logo}/>
             </Link>
       </div>
       <div className='menu-icon' onClick={handleClick}>
@@ -49,7 +49,7 @@ function Header() {
               to='/products' 
               className='option' 
               onClick={closeMobileMenu}>
-              GUITARS & BASS                  
+              GUITARS                  
             </Link>
             <ul className="dropdown-menu">
               <li className="header-item active dropdown-item">
@@ -66,23 +66,11 @@ function Header() {
                   <p>Basses</p>                  
                 </Link>
               </li>
-              <li className="header-item active dropdown-item">
-                <Link 
-                  to='/nylonstrings' 
-                  onClick={closeMobileMenu}>
-                  <p>Nylon Strings</p>                  
-                </Link>
-              </li>
             </ul>
           </li>
           <li className='header-item active'>
             <Link className="option" to='/' onClick={closeMobileMenu} >
                 AMPS & CABINETS
-            </Link>
-          </li>
-          <li className='header-item active'>
-            <Link className="option" to='/contact' onClick={closeMobileMenu} >
-                CONTACT
             </Link>
           </li>
         </ul>

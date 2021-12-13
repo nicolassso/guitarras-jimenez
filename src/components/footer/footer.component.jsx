@@ -10,32 +10,17 @@ const Footer = () => (
             <div className="footer-top-left">
                 <div className="footer-top-left-content">
                     <div className="top-left-content-box-title">
-                        <h2>HABLA CON NOSOTROS</h2>
                     </div>
                     <div className="top-left-content-box-title-opening">
-                        <h4>HORARIOS</h4>
                     </div>
                     <div className="top-left-content-box-time">
-                        <h5>LUNES A VIERNES</h5>
                     </div>
                     <div className="top-left-content-box-days">
-                        <p>10:00 – 17:00</p>
                     </div>
                     <div className="top-left-content-box-time">
-                        <h5>FINES DE SEMANA</h5>
                     </div>
                     <div className="top-left-content-box-days">
-                        <p>12:00 – 15:00</p>
                     </div>
-                    {/* <div className="top-left-content-box-title-closing">
-                        <h4>CLOSING DAYS</h4>
-                    </div>
-                    <div className="top-left-content-box-days">
-                        <p>Tuesday | Wednesday : Closed</p>
-                    </div>
-                    <div className="top-left-content-box-button">
-                        <CustomButton>Booking</CustomButton>
-                    </div> */}
                 </div>
             </div>
             <div className="footer-top-right">
@@ -44,32 +29,43 @@ const Footer = () => (
                         <h2>CONTACTO</h2>
                     </div>
                     <div className="top-right-content-box-title-2">
-                        <h4>TELÉFONO</h4>
+                        <h4><i class="fas fa-phone"></i> TELÉFONO</h4>
                     </div>
                     <div className="top-right-content-box-contact">
-                        <a href="tel:+34 678 249 427">00 34 678 249 427</a>
+                        <a target="_blank" rel="noreferrer" href="https://wa.me/34678249427/?text=Hola%20Marcos,%20me%20gustaría%20saber%20más%20sobre%20las%20guitarras%20hechas%20a%20mano"><i class="fab fa-whatsapp"></i> 00 34 678 249 427</a>
                     </div>
                     <div className="top-right-content-box-title-2">
-                        <h4>EMAIL</h4>
+                        <h4><i class="fas fa-envelope"></i> EMAIL</h4>
                     </div>
                     <div className="top-right-content-box-contact">
                         <a href="mailto:marcosjimenezsoulguitar@gmail.com">marcosjimenezsoulguitar@gmail.com</a>
                     </div>
                     <div className="top-right-content-box-title-2">
-                        <h4>DIRECCIÓN</h4>
+                        <h4><i class="fas fa-map-marker-alt"></i> DIRECCIÓN</h4>
                     </div>
                     <div className="top-right-content-box-contact-addresses">
                         <div className="footer-box-contact-left">
                             <p id='weymouth'>Calle Pelayo nº 9, <br />
                             29009, Málaga <br />
                             España</p>
-                        </div>                        
+                        </div>
+                    </div>
+                    <div className="top-right-content-box-contact">
+                        <div className="footer-box-contact-left" style={{
+                            display: "flex",
+                            justifyContent: "space-between",
+                            padding: "0 5vw",
+                            marginTop: "30px"
+                        }}>
+                            <a rel="noreferrer" target="_blank" href="https://www.facebook.com/marcos.jimenez.92102564"><i class="fab fa-facebook"></i> Facebook </a>
+                            <a rel="noreferrer" target="_blank" href="https://www.instagram.com/marcosjimenezsoulguitar/"><i class="fab fa-instagram"></i> Instagram </a>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div className="footer-bottom">
-            <p>Marcos Jiménez 2021</p>
         </div>
     </div>
 )

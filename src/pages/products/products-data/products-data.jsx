@@ -46,7 +46,7 @@ const PRODUCTS_DATA = [
             {
                 id: 4,
                 classe: 'bossa',
-                name: 'Bass1',
+                name: 'GYPSY Bossa Nova I',
                 imageUrl: IMAGES.big.bossa.bossaImage1,
                 img2: IMAGES.big.bossa.bossaImage4,
                 img3: IMAGES.tall.bossa.bossaImage1,
@@ -56,7 +56,7 @@ const PRODUCTS_DATA = [
             {
                 id: 5,
                 classe: 'bossa',
-                name: 'Bass2',
+                name: 'GYPSY Bossa Nova II',
                 imageUrl: IMAGES.big.bossa.bossaImage2,
                 img2: IMAGES.big.bossa.bossaImage3,
                 img3: IMAGES.tall.bossa.bossaImage2,
@@ -66,7 +66,7 @@ const PRODUCTS_DATA = [
             {
                 id: 6,
                 classe: 'bossa',
-                name: 'Bass3',
+                name: 'GYPSY Bossa Nova III',
                 imageUrl: IMAGES.big.bossa.bossaImage3,
                 img2: IMAGES.big.bossa.bossaImage2,
                 img3: IMAGES.tall.bossa.bossaImage3,
@@ -74,44 +74,45 @@ const PRODUCTS_DATA = [
                 description: 'Some description'
             }
         ]
-    },
-    {
-        id: 3,
-        title: 'Nylon Strings',
-        routename: 'nylon strings',
-        items: [
-            {
-                id: 7,
-                classe: 'bossa',
-                name: 'Nylon string 1',
-                imageUrl: IMAGES.big.jazz.jazzImage7,
-                img2: IMAGES.big.jazz.jazzImage4,
-                img3: IMAGES.tall.jazz.jazzImage4,
-                img4: IMAGES.big.bossa.bossaImage4,
-                description: 'Some description'
-            },
-            {
-                id: 8,
-                classe: 'bossa',
-                name: 'Nylon string 2',
-                imageUrl: IMAGES.big.jazz.jazzImage2,
-                img2: IMAGES.big.jazz.jazzImage3,
-                img3: IMAGES.tall.bossa.bossaImage4,
-                img4: IMAGES.big.jazz.jazzImage1,
-                description: 'Some description'
-            },
-            {
-                id: 9,
-                classe: 'bossa',
-                name: 'Nylon string 3',
-                imageUrl: IMAGES.big.bossa.bossaImage1,
-                img2: IMAGES.big.jazz.jazzImage2,
-                img3: IMAGES.tall.jazz.jazzImage7,
-                img4: IMAGES.big.bossa.bossaImage4,
-                description: 'Some description'
-            }
-        ]
     }
+    // ,
+    // {
+    //     id: 3,
+    //     title: 'Nylon Strings',
+    //     routename: 'nylon strings',
+    //     items: [
+    //         {
+    //             id: 7,
+    //             classe: 'bossa',
+    //             name: 'Nylon string 1',
+    //             imageUrl: IMAGES.big.jazz.jazzImage7,
+    //             img2: IMAGES.big.jazz.jazzImage4,
+    //             img3: IMAGES.tall.jazz.jazzImage4,
+    //             img4: IMAGES.big.bossa.bossaImage4,
+    //             description: 'Some description'
+    //         },
+    //         {
+    //             id: 8,
+    //             classe: 'bossa',
+    //             name: 'Nylon string 2',
+    //             imageUrl: IMAGES.big.jazz.jazzImage2,
+    //             img2: IMAGES.big.jazz.jazzImage3,
+    //             img3: IMAGES.tall.bossa.bossaImage4,
+    //             img4: IMAGES.big.jazz.jazzImage1,
+    //             description: 'Some description'
+    //         },
+    //         {
+    //             id: 9,
+    //             classe: 'bossa',
+    //             name: 'Nylon string 3',
+    //             imageUrl: IMAGES.big.bossa.bossaImage1,
+    //             img2: IMAGES.big.jazz.jazzImage2,
+    //             img3: IMAGES.tall.jazz.jazzImage7,
+    //             img4: IMAGES.big.bossa.bossaImage4,
+    //             description: 'Some description'
+    //         }
+    //     ]
+    // }
 ]
 
 export default PRODUCTS_DATA;

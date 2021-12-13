@@ -3,26 +3,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('../../assets/images/IMG_8578.jpg');
-  background-size:cover;
-  background-position: 0% -35%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('../../assets/images/60x120/big-jazz/big-jazz-60x120-4.jpg');
+  background-size: cover;
+  background-position: -60% 100%;
   height: 120vh;
   width: 100vw;
   
   .herosection-content{
     color: var(--white);
-    margin-right: 15%;
-    h2{
-      letter-spacing: 7px;
-      font-size: 40px;
-      font-weight: 300;
-      margin-bottom: 15px;
-    }
+    margin-right: 10vw;
     h1{
-      letter-spacing: 5px;
+      letter-spacing: 6px;
       font-size: 50px;
       font-weight: 500;
-      line-height: 40px;
+      line-height: 50px;
     }
   }
 
@@ -32,9 +26,9 @@
 @media screen and (max-width: 980px) {
   .hero-container {
     box-sizing: border-box;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('../../assets/images/IMG_8578.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('../../assets/images/60x120/big-jazz/big-jazz-60x120-3.jpg');
     background-size: cover;
-    background-position: 40%;
+    background-position: -10% 0%;
     height: 110vh;
     width: 100vw;
     display: flex;
