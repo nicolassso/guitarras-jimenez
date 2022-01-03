@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/guitarras-jimenez/static/css/main.307a3a97.chunk.css",
+    "main.css": "/guitarras-jimenez/static/css/main.b38bf754.chunk.css",
     "main.js": "/guitarras-jimenez/static/js/main.d9055874.chunk.js",
     "main.js.map": "/guitarras-jimenez/static/js/main.d9055874.chunk.js.map",
     "runtime-main.js": "/guitarras-jimenez/static/js/runtime-main.e463fb72.js",
@@ -36,7 +36,7 @@
     "static/css/7.1c70be52.chunk.css.map": "/guitarras-jimenez/static/css/7.1c70be52.chunk.css.map",
     "static/css/8.48f2e9c4.chunk.css.map": "/guitarras-jimenez/static/css/8.48f2e9c4.chunk.css.map",
     "static/css/9.8351a4c4.chunk.css.map": "/guitarras-jimenez/static/css/9.8351a4c4.chunk.css.map",
-    "static/css/main.307a3a97.chunk.css.map": "/guitarras-jimenez/static/css/main.307a3a97.chunk.css.map",
+    "static/css/main.b38bf754.chunk.css.map": "/guitarras-jimenez/static/css/main.b38bf754.chunk.css.map",
     "static/js/6.2ad8a25c.chunk.js.LICENSE.txt": "/guitarras-jimenez/static/js/6.2ad8a25c.chunk.js.LICENSE.txt",
     "static/media/big-jazz-300x240-2.jpg": "/guitarras-jimenez/static/media/big-jazz-300x240-2.adf89ddb.jpg",
     "static/media/big-jazz-300x240-3.jpg": "/guitarras-jimenez/static/media/big-jazz-300x240-3.061ef8b9.jpg",
@@ -88,7 +88,7 @@
   "entrypoints": [
     "static/js/runtime-main.e463fb72.js",
     "static/js/6.2ad8a25c.chunk.js",
-    "static/css/main.307a3a97.chunk.css",
+    "static/css/main.b38bf754.chunk.css",
     "static/js/main.d9055874.chunk.js"
   ]
 }
