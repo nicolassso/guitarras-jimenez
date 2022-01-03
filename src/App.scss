@@ -8,6 +8,16 @@
 }
 
 * {
+  ::-webkit-scrollbar{
+    background-color: var(--grey);
+    border-radius: 8px;
+
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: var(--black);
+    border-radius: 8px;
+    border: solid var(--grey) .5px;
+  }
     box-sizing: border-box;
     font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;    
   }
@@ -16,7 +26,6 @@ body{
   padding: 0;
   margin: 0;
   width: 100%;
-  
 }
 ul{
   padding-inline-start: 0;
@@ -27,14 +36,13 @@ a{
   color: var(--white);
 }
 
+
 *{
   box-sizing: border-box;
 
 }
 
-::-webkit-scrollbar{
-  display: none;
-}
+
 
 @media screen and (max-width: 980px){
   body{

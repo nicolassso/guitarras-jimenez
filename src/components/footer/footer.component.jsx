@@ -29,19 +29,19 @@ const Footer = () => (
                         <h2>CONTACTO</h2>
                     </div>
                     <div className="top-right-content-box-title-2">
-                        <h4><i class="fas fa-phone"></i> TELÉFONO</h4>
+                        <h4><i className="fas fa-phone"></i> TELÉFONO</h4>
                     </div>
                     <div className="top-right-content-box-contact">
-                        <a target="_blank" rel="noreferrer" href="https://wa.me/34678249427/?text=Hola%20Marcos,%20me%20gustaría%20saber%20más%20sobre%20las%20guitarras%20hechas%20a%20mano"><i class="fab fa-whatsapp"></i> 00 34 678 249 427</a>
+                        <a target="_blank" rel="noreferrer" href="https://wa.me/34678249427/?text=Hola%20Marcos,%20me%20gustaría%20saber%20más%20sobre%20las%20guitarras%20hechas%20a%20mano"><i className="fab fa-whatsapp"></i> 00 34 678 249 427</a>
                     </div>
                     <div className="top-right-content-box-title-2">
-                        <h4><i class="fas fa-envelope"></i> EMAIL</h4>
+                        <h4><i className="fas fa-envelope"></i> EMAIL</h4>
                     </div>
                     <div className="top-right-content-box-contact">
                         <a href="mailto:marcosjimenezsoulguitar@gmail.com">marcosjimenezsoulguitar@gmail.com</a>
                     </div>
                     <div className="top-right-content-box-title-2">
-                        <h4><i class="fas fa-map-marker-alt"></i> DIRECCIÓN</h4>
+                        <h4><i className="fas fa-map-marker-alt"></i> DIRECCIÓN</h4>
                     </div>
                     <div className="top-right-content-box-contact-addresses">
                         <div className="footer-box-contact-left">
@@ -57,8 +57,8 @@ const Footer = () => (
                             padding: "0 5vw",
                             marginTop: "30px"
                         }}>
-                            <a rel="noreferrer" target="_blank" href="https://www.facebook.com/marcos.jimenez.92102564"><i class="fab fa-facebook"></i> Facebook </a>
-                            <a rel="noreferrer" target="_blank" href="https://www.instagram.com/marcosjimenezsoulguitar/"><i class="fab fa-instagram"></i> Instagram </a>
+                            <a rel="noreferrer" target="_blank" href="https://www.facebook.com/marcos.jimenez.92102564"><i className="fab fa-facebook"></i> Facebook </a>
+                            <a rel="noreferrer" target="_blank" href="https://www.instagram.com/marcosjimenezsoulguitar/"><i className="fab fa-instagram"></i> Instagram </a>
 
                         </div>
                     </div>

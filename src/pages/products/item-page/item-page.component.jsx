@@ -32,10 +32,8 @@ function ItemPage(props) {
     let squareImages = imgs.small[classeRecibida]
 
     //CREATE AN ARRAY WITH THE IMAGES TO PRINT THEM
-    let arrayImages = Object.values(tallImages)
-    console.log(arrayImages)
+    // let arrayImages = Object.values(tallImages)
 
-    console.log(arrayImages[6] + ' this one should be -7.jpg')
 
 
     return (
