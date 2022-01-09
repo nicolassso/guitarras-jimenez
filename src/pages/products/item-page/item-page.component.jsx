@@ -10,22 +10,6 @@ function ItemPage(props) {
     //RECIBE LA CLASE DE GUITARRA (JAZZ O BOSSA) DE collection-item Y LO ALMACENA EN UNA STRING
     const classeRecibida = props.location.state.classe;
 
-    //COGE LOS TIPOS DE GUITARRA (JAZZ O BOSSA) DEL OBJETO DE IMAGENES Y LO ALMACENA EN UN ARRAY
-    const tiposGuitarra = Object.keys(imgs.tall);
-    
-    //FUNCIÓN PARA COMPARAR EL VALOR DE LA CLASE RECIBIDA Y LOS TIPOS ALMACENADOS EN EL ARRAY DEL OBJETO ANTERIOR, DEVUELVE UN BOOLEAN TRUE SI HAY COINCIDENCIA
-    const checkClasseGuitarra = (t) => {
-         let bool = false
-         t.map( p => {
-            const tipo = p
-            if(tipo === classeRecibida){
-                bool = !bool
-            }
-        }
-        )
-        return bool
-    }
-
 
     let tallImages = imgs.tall[classeRecibida]
     let wideImages = imgs.big[classeRecibida]
@@ -49,7 +33,7 @@ function ItemPage(props) {
                             Object.values(tallImages)
                             .filter((item, idx) => idx < 4)
                             .map((item, id)=> {
-                                    return <img key={id} src={item} />
+                                    return <img key={id} src={item} alt='' />
                             })
                         }
                     </div>
@@ -59,7 +43,7 @@ function ItemPage(props) {
                             .filter((item, idx) => idx < 4)
                             .map((item, id)=> {
 
-                                    return <img key={id} src={item} />
+                                    return <img key={id} src={item} alt='' />
                             })
                         }
                     </div>
@@ -69,14 +53,14 @@ function ItemPage(props) {
                             .filter((item, idx) => idx < 4)
                             .map((item, id)=> {
 
-                                    return <img key={id} src={item} />
+                                    return <img key={id} src={item} alt='' />
                             })
                         }
                     </div>          
                 </div>
-                <div className="item-description">
+                {/* <div className="item-description">
                     <p>{props.location.state.description}</p>
-                </div>                
+                </div>                 */}
             </div>
         </div>
     )
