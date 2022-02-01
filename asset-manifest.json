@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/guitarras-jimenez/static/css/main.b38bf754.chunk.css",
+    "main.css": "/guitarras-jimenez/static/css/main.62639207.chunk.css",
     "main.js": "/guitarras-jimenez/static/js/main.d9055874.chunk.js",
     "main.js.map": "/guitarras-jimenez/static/js/main.d9055874.chunk.js.map",
-    "runtime-main.js": "/guitarras-jimenez/static/js/runtime-main.52d9370f.js",
-    "runtime-main.js.map": "/guitarras-jimenez/static/js/runtime-main.52d9370f.js.map",
+    "runtime-main.js": "/guitarras-jimenez/static/js/runtime-main.820b1308.js",
+    "runtime-main.js.map": "/guitarras-jimenez/static/js/runtime-main.820b1308.js.map",
     "static/css/2.e17dd2ea.chunk.css": "/guitarras-jimenez/static/css/2.e17dd2ea.chunk.css",
     "static/js/2.20468f59.chunk.js": "/guitarras-jimenez/static/js/2.20468f59.chunk.js",
     "static/js/2.20468f59.chunk.js.map": "/guitarras-jimenez/static/js/2.20468f59.chunk.js.map",
@@ -19,10 +19,10 @@
     "static/js/5.ac9dbdb3.chunk.js.map": "/guitarras-jimenez/static/js/5.ac9dbdb3.chunk.js.map",
     "static/js/6.2ad8a25c.chunk.js": "/guitarras-jimenez/static/js/6.2ad8a25c.chunk.js",
     "static/js/6.2ad8a25c.chunk.js.map": "/guitarras-jimenez/static/js/6.2ad8a25c.chunk.js.map",
-    "static/css/7.268bec64.chunk.css": "/guitarras-jimenez/static/css/7.268bec64.chunk.css",
-    "static/js/7.7ce5043d.chunk.js": "/guitarras-jimenez/static/js/7.7ce5043d.chunk.js",
-    "static/js/7.7ce5043d.chunk.js.map": "/guitarras-jimenez/static/js/7.7ce5043d.chunk.js.map",
-    "static/css/8.48f2e9c4.chunk.css": "/guitarras-jimenez/static/css/8.48f2e9c4.chunk.css",
+    "static/css/7.ed6ced3a.chunk.css": "/guitarras-jimenez/static/css/7.ed6ced3a.chunk.css",
+    "static/js/7.919b1d5c.chunk.js": "/guitarras-jimenez/static/js/7.919b1d5c.chunk.js",
+    "static/js/7.919b1d5c.chunk.js.map": "/guitarras-jimenez/static/js/7.919b1d5c.chunk.js.map",
+    "static/css/8.47682975.chunk.css": "/guitarras-jimenez/static/css/8.47682975.chunk.css",
     "static/js/8.70c5d096.chunk.js": "/guitarras-jimenez/static/js/8.70c5d096.chunk.js",
     "static/js/8.70c5d096.chunk.js.map": "/guitarras-jimenez/static/js/8.70c5d096.chunk.js.map",
     "static/css/9.8351a4c4.chunk.css": "/guitarras-jimenez/static/css/9.8351a4c4.chunk.css",
@@ -33,10 +33,10 @@
     "static/css/3.e17dd2ea.chunk.css.map": "/guitarras-jimenez/static/css/3.e17dd2ea.chunk.css.map",
     "static/css/4.e17dd2ea.chunk.css.map": "/guitarras-jimenez/static/css/4.e17dd2ea.chunk.css.map",
     "static/css/5.d76300a3.chunk.css.map": "/guitarras-jimenez/static/css/5.d76300a3.chunk.css.map",
-    "static/css/7.268bec64.chunk.css.map": "/guitarras-jimenez/static/css/7.268bec64.chunk.css.map",
-    "static/css/8.48f2e9c4.chunk.css.map": "/guitarras-jimenez/static/css/8.48f2e9c4.chunk.css.map",
+    "static/css/7.ed6ced3a.chunk.css.map": "/guitarras-jimenez/static/css/7.ed6ced3a.chunk.css.map",
+    "static/css/8.47682975.chunk.css.map": "/guitarras-jimenez/static/css/8.47682975.chunk.css.map",
     "static/css/9.8351a4c4.chunk.css.map": "/guitarras-jimenez/static/css/9.8351a4c4.chunk.css.map",
-    "static/css/main.b38bf754.chunk.css.map": "/guitarras-jimenez/static/css/main.b38bf754.chunk.css.map",
+    "static/css/main.62639207.chunk.css.map": "/guitarras-jimenez/static/css/main.62639207.chunk.css.map",
     "static/js/6.2ad8a25c.chunk.js.LICENSE.txt": "/guitarras-jimenez/static/js/6.2ad8a25c.chunk.js.LICENSE.txt",
     "static/media/big-jazz-300x240-2.jpg": "/guitarras-jimenez/static/media/big-jazz-300x240-2.adf89ddb.jpg",
     "static/media/big-jazz-300x240-3.jpg": "/guitarras-jimenez/static/media/big-jazz-300x240-3.061ef8b9.jpg",
@@ -86,9 +86,9 @@
     "static/media/logo-navbar.eba81fb4.PNG": "/guitarras-jimenez/static/media/logo-navbar.eba81fb4.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.52d9370f.js",
+    "static/js/runtime-main.820b1308.js",
     "static/js/6.2ad8a25c.chunk.js",
-    "static/css/main.b38bf754.chunk.css",
+    "static/css/main.62639207.chunk.css",
     "static/js/main.d9055874.chunk.js"
   ]
 }
