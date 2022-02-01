@@ -51,14 +51,9 @@ const Footer = () => (
                         </div>
                     </div>
                     <div className="top-right-content-box-contact">
-                        <div className="footer-box-contact-left" style={{
-                            display: "flex",
-                            justifyContent: "space-between",
-                            padding: "0 5vw",
-                            marginTop: "30px"
-                        }}>
-                            <a rel="noreferrer" target="_blank" href="https://www.facebook.com/marcos.jimenez.92102564"><i className="fab fa-facebook"></i> Facebook </a>
-                            <a rel="noreferrer" target="_blank" href="https://www.instagram.com/marcosjimenezsoulguitar/"><i className="fab fa-instagram"></i> Instagram </a>
+                        <div className="footer-box-contact">
+                            <a className='social-media' rel="noreferrer" target="_blank" href="https://www.facebook.com/marcos.jimenez.92102564"><i className="fab fa-facebook"></i> Facebook </a>
+                            <a className='social-media' rel="noreferrer" target="_blank" href="https://www.instagram.com/marcosjimenezsoulguitar/"><i className="fab fa-instagram"></i> Instagram </a>
 
                         </div>
                     </div>

@@ -113,6 +113,7 @@
                 }
                 .top-right-content-box-contact{
                     margin-bottom: 40px;
+                    display: flex;
                     
                     a{
                         line-height: 1.5em;
@@ -121,6 +122,12 @@
                         font-size: 12px;
                         color: var(--orange);
                         letter-spacing: 1.8px;
+                    }
+                    .footer-box-contact{
+                        margin-top: 25px;
+                        .social-media{
+                            margin-right: 35px;
+                        }
                     }
                 }
                 .top-right-content-box-contact-addresses{
