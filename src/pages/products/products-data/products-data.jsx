@@ -8,32 +8,42 @@ const PRODUCTS_DATA = [
         items: [
             {
                 id: 1,
-                classe: 'jazz',
-                name: 'BIG JAZZ Archtop',
-                imageUrl: IMAGES.big.jazz.jazzImage1,
-                img2: IMAGES.big.jazz.jazzImage2,
-                img3: IMAGES.tall.jazz.jazzImage1,
-                img4: IMAGES.big.jazz.jazzImage3,
-                description: 'Handcrafted in Málaga by th local designer Marcos Jiménez with a polished finish and a perfect sound.'
+                classe: 'bigJazz',
+                name: 'BIG JAZZ',
+                imageUrl: IMAGES.big.bigJazz.bigJazzImage2,
+                img2: IMAGES.tall.bigJazz.bigJazzImage2,
+                img3: IMAGES.tall.bigJazz.bigJazzImage1,
+                img4: IMAGES.big.bigJazz.bigJazzImage1,
+                description: 'Handcrafted in Málaga by the local designer Marcos Jiménez with a polished finish and a perfect sound.'
             },
             {
                 id: 2,
-                classe: 'jazz',
+                classe: 'littleJazzArchtop',
                 name: 'BIG LITTLE JAZZ Archtop',
-                imageUrl: IMAGES.big.jazz.jazzImage4,
-                img2: IMAGES.big.jazz.jazzImage5,
-                img3: IMAGES.tall.jazz.jazzImage2,
-                img4: IMAGES.big.jazz.jazzImage6,
+                imageUrl: IMAGES.big.littleJazzArchtop.littleJazzArchtopImage1,
+                img2: IMAGES.tall.littleJazzArchtop.littleJazzArchtopImage2,
+                img3: IMAGES.tall.littleJazzArchtop.littleJazzArchtopImage1,
+                img4: IMAGES.tall.littleJazzArchtop.littleJazzArchtopImage6,
                 description: 'Some description'
             },
             {
                 id: 3,
-                classe: 'jazz',
+                classe: 'littleJazzDropTop',
+                name: 'BIG LITTLE JAZZ Drop Top',
+                imageUrl: IMAGES.tall.littleJazzDropTop.littleJazzDropTopImage3,
+                img2: IMAGES.tall.littleJazzDropTop.littleJazzDropTopImage2,
+                img3: IMAGES.tall.littleJazzDropTop.littleJazzDropTopImage5,
+                img4: IMAGES.tall.littleJazzDropTop.littleJazzDropTopImage4,
+                description: 'Some description'
+            },
+            {
+                id: 4,
+                classe: 'littleJazz',
                 name: 'LITTLE JAZZ',
-                imageUrl: IMAGES.big.jazz.jazzImage2,
-                img2: IMAGES.big.jazz.jazzImage6,
-                img3: IMAGES.tall.jazz.jazzImage3,
-                img4: IMAGES.big.jazz.jazzImage5,
+                imageUrl: IMAGES.big.littleJazz.littleJazzImage1,
+                img2: IMAGES.tall.littleJazz.littleJazzImage2,
+                img3: IMAGES.tall.littleJazz.littleJazzImage1,
+                img4: IMAGES.tall.littleJazz.littleJazzImage3,
                 description: 'Some description'
             }
         ]
@@ -44,75 +54,54 @@ const PRODUCTS_DATA = [
         routename: 'bass',
         items: [
             {
-                id: 4,
-                classe: 'bossa',
-                name: 'GYPSY Bossa Nova I',
-                imageUrl: IMAGES.big.bossa.bossaImage1,
-                img2: IMAGES.big.bossa.bossaImage4,
-                img3: IMAGES.tall.bossa.bossaImage1,
-                img4: IMAGES.big.bossa.bossaImage3,
-                description: 'Some description'
-            },
-            {
                 id: 5,
-                classe: 'bossa',
-                name: 'GYPSY Bossa Nova II',
-                imageUrl: IMAGES.big.bossa.bossaImage2,
-                img2: IMAGES.big.bossa.bossaImage3,
-                img3: IMAGES.tall.bossa.bossaImage2,
-                img4: IMAGES.big.bossa.bossaImage2,
+                classe: 'bossaClassic',
+                name: 'BOSSA CLASSIC',
+                imageUrl: IMAGES.big.bossaClassic.bossaClassicImage1,
+                img2: IMAGES.tall.bossaClassic.bossaClassicImage5,
+                img3: IMAGES.tall.bossaClassic.bossaClassicImage3,
+                img4: IMAGES.tall.bossaClassic.bossaClassicImage7,
                 description: 'Some description'
             },
             {
                 id: 6,
-                classe: 'bossa',
-                name: 'GYPSY Bossa Nova III',
-                imageUrl: IMAGES.big.bossa.bossaImage3,
-                img2: IMAGES.big.bossa.bossaImage2,
-                img3: IMAGES.tall.bossa.bossaImage3,
-                img4: IMAGES.big.bossa.bossaImage1,
+                classe: 'gypsyBossaNova',
+                name: 'GYPSY BOSSA NOVA',
+                imageUrl: IMAGES.tall.gypsyBossaNova.gypsyBossaNovaImage5,
+                img2: IMAGES.tall.gypsyBossaNova.gypsyBossaNovaImage2,
+                img3: IMAGES.tall.gypsyBossaNova.gypsyBossaNovaImage3,
+                img4: IMAGES.tall.gypsyBossaNova.gypsyBossaNovaImage8,
+                description: 'Some description'
+            },
+            {
+                id: 7,
+                classe: 'assymetricGypsyBossaNova',
+                name: 'Assymetric GYPSY BOSSA NOVA',
+                imageUrl: IMAGES.big.assymetricGypsyBossaNova.assymetricGypsyBossaNovaImage3,
+                img2: IMAGES.big.assymetricGypsyBossaNova.assymetricGypsyBossaNovaImage2,
+                img3: IMAGES.tall.assymetricGypsyBossaNova.assymetricGypsyBossaNovaImage1,
+                img4: IMAGES.tall.assymetricGypsyBossaNova.assymetricGypsyBossaNovaImage3,
+                description: 'Some description'
+            }
+        ]
+    },
+    {
+        id: 3,
+        title: 'Jazzycaster',
+        routename: 'jazzycaster',
+        items: [
+            {
+                id: 8,
+                classe: 'jazzycaster',
+                name: 'JAZZYCASTER',
+                imageUrl: IMAGES.tall.jazzycaster.jazzycasterImage1,
+                img2: IMAGES.small.jazzycaster.jazzycasterImage1,
+                img3: IMAGES.tall.jazzycaster.jazzycasterImage4,
+                img4: IMAGES.tall.jazzycaster.jazzycasterImage3,
                 description: 'Some description'
             }
         ]
     }
-    // ,
-    // {
-    //     id: 3,
-    //     title: 'Nylon Strings',
-    //     routename: 'nylon strings',
-    //     items: [
-    //         {
-    //             id: 7,
-    //             classe: 'bossa',
-    //             name: 'Nylon string 1',
-    //             imageUrl: IMAGES.big.jazz.jazzImage7,
-    //             img2: IMAGES.big.jazz.jazzImage4,
-    //             img3: IMAGES.tall.jazz.jazzImage4,
-    //             img4: IMAGES.big.bossa.bossaImage4,
-    //             description: 'Some description'
-    //         },
-    //         {
-    //             id: 8,
-    //             classe: 'bossa',
-    //             name: 'Nylon string 2',
-    //             imageUrl: IMAGES.big.jazz.jazzImage2,
-    //             img2: IMAGES.big.jazz.jazzImage3,
-    //             img3: IMAGES.tall.bossa.bossaImage4,
-    //             img4: IMAGES.big.jazz.jazzImage1,
-    //             description: 'Some description'
-    //         },
-    //         {
-    //             id: 9,
-    //             classe: 'bossa',
-    //             name: 'Nylon string 3',
-    //             imageUrl: IMAGES.big.bossa.bossaImage1,
-    //             img2: IMAGES.big.jazz.jazzImage2,
-    //             img3: IMAGES.tall.jazz.jazzImage7,
-    //             img4: IMAGES.big.bossa.bossaImage4,
-    //             description: 'Some description'
-    //         }
-    //     ]
-    // }
 ]
 
 export default PRODUCTS_DATA;
