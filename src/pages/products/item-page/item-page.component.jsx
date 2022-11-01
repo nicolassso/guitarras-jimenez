@@ -58,9 +58,6 @@ function ItemPage(props) {
                         }
                     </div>          
                 </div>
-                {/* <div className="item-description">
-                    <p>{props.location.state.description}</p>
-                </div>                 */}
             </div>
         </div>
     )
