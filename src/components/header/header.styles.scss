@@ -39,13 +39,15 @@
       flex-direction: row;
       align-items: center;   
       justify-content: center;
-      
+      list-style-type: none; /* Remove bullets */
+      padding: 0;
+      margin: 0; 
+
       .header-item{
         min-width: 145px;
       }
       
       .header-item.active{
-
         .option {
           font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
           padding: 10px 15px;
