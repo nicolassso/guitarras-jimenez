@@ -1,0 +1,2 @@
+(this["webpackJsonpguitarras-jimenez"]=this["webpackJsonpguitarras-jimenez"]||[]).push([[9],{112:function(e,c,n){},120:function(e,c,n){"use strict";n.r(c);n(0),n(112);var s=n(1);var t=function(){return Object(s.jsx)("div",{className:"hero-container",children:Object(s.jsx)("div",{className:"herosection-content",children:Object(s.jsxs)("h1",{children:["Building ",Object(s.jsx)("br",{})," the Music"]})})})};c.default=function(){return Object(s.jsx)("div",{className:"homepage",children:Object(s.jsx)(t,{})})}}}]);
+//# sourceMappingURL=9.4816dc05.chunk.js.map
