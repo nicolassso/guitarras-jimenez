@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 import './header.styles.scss'
-import Logo from '../../assets/images/logo-navbar.PNG'
+import Logo from '../../assets/images/NEW_LOGO_NAVBAR.png'
 
 function Header() {
   const [click, setClick] = useState(false);
